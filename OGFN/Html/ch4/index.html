@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Itypto Builds - Chapter 4</title>
+    <meta
+      name="description"
+      content="A Fortnite-inspired season browser for Itypto Builds Chapter 4."
+    />
+    <link rel="icon" href="../../../Assets/WEB.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      href="../../assets/Fonts/LuckiestGuy.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="../../css/chapter-browser.css" />
+  </head>
+  <body data-chapter-id="ch4" data-chapter-name="Chapter 4" data-page-title="Select a Season">
+    <div class="archive-bg" aria-hidden="true"></div>
+    <button class="menu-button" type="button" aria-label="Open menu">
+      <span class="menu-button-lines" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+    <button class="music-toggle" id="music-toggle" type="button" aria-label="Turn music on" data-state="off">
+      <span class="music-toggle-icon" aria-hidden="true">
+        <svg class="music-icon-on" viewBox="0 0 32 32">
+          <path d="M6 12.5h6.2l7-5.5c.8-.6 1.8 0 1.8 1v16c0 1-.9 1.6-1.8 1l-7-5.5H6c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2z"></path>
+          <path d="M23.8 12.1A5.2 5.2 0 0 1 23.8 19.9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+          <path d="M27.4 8.8A10 10 0 0 1 27.4 23.2" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+        </svg>
+        <svg class="music-icon-off" viewBox="0 0 32 32">
+          <path d="M6 12.5h6.2l7-5.5c.8-.6 1.8 0 1.8 1v16c0 1-.9 1.6-1.8 1l-7-5.5H6c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2z"></path>
+        </svg>
+      </span>
+    </button>
+
+    <main class="browser-layout">
+      <p class="chapter-badge" id="chapter-badge"></p>
+      <h1 class="chapter-title" id="page-title"></h1>
+
+      <section class="season-browser-shell" aria-label="Available seasons">
+        <div class="season-browser-rail" id="season-rail">
+          <div class="season-track" id="season-track"></div>
+        </div>
+
+        <div class="arrow-controls">
+          <button class="nav-btn" id="season-prev" type="button" aria-label="Previous seasons">
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M16.942 6.329a1.2 1.2 0 0 1 1.697 0l2.546 2.546a1.2 1.2 0 0 1 0 1.697l-5.43 5.43 5.43 5.43a1.2 1.2 0 0 1 0 1.697l-2.546 2.545a1.2 1.2 0 0 1-1.697 0L7.27 16.002z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <button class="nav-btn" id="season-next" type="button" aria-label="Next seasons">
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M15.058 6.329a1.2 1.2 0 0 0-1.697 0l-2.546 2.545a1.2 1.2 0 0 0 0 1.697l5.43 5.43-5.43 5.43a1.2 1.2 0 0 0 0 1.698l2.546 2.545a1.2 1.2 0 0 0 1.697 0l9.672-9.672z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <audio id="select-audio" muted loop>
+      <source type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="browser-modal" id="browser-modal" aria-hidden="true">
+      <div class="browser-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="browser-modal-title">
+        <header class="browser-modal-header">
+          <div class="browser-modal-title-wrap">
+            <h2 id="browser-modal-title">Season</h2>
+            <p id="browser-modal-subtitle"></p>
+          </div>
+          <button class="browser-modal-close" id="browser-modal-close" type="button" aria-label="Close season builds">
+            X
+          </button>
+        </header>
+        <div class="browser-modal-scroll-controls">
+          <button class="nav-btn modal-nav-btn modal-nav-btn-up" id="modal-scroll-up" type="button" aria-label="Scroll build list up">
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M15.058 6.329a1.2 1.2 0 0 0-1.697 0l-2.546 2.545a1.2 1.2 0 0 0 0 1.697l5.43 5.43-5.43 5.43a1.2 1.2 0 0 0 0 1.698l2.546 2.545a1.2 1.2 0 0 0 1.697 0l9.672-9.672z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <button class="nav-btn modal-nav-btn modal-nav-btn-down" id="modal-scroll-down" type="button" aria-label="Scroll build list down">
+            <svg viewBox="0 0 32 32" aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M15.058 6.329a1.2 1.2 0 0 0-1.697 0l-2.546 2.545a1.2 1.2 0 0 0 0 1.697l5.43 5.43-5.43 5.43a1.2 1.2 0 0 0 0 1.698l2.546 2.545a1.2 1.2 0 0 0 1.697 0l9.672-9.672z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="browser-modal-body" id="browser-modal-body"></div>
+      </div>
+    </div>
+
+    <p class="epic-disclaimer">
+      Portions of the materials used are trademarks and/or copyrighted works of Epic Games, Inc.
+      All rights reserved by Epic. This material is not official and is not endorsed by Epic.
+    </p>
+
+    <script src="../../js/menu-dropdown.js"></script>
+    <script src="../../js/select-audio-state.js"></script>
+    <script src="../../js/build-data.js"></script>
+    <script src="../../js/chapter-browser.js"></script>
+  </body>
+</html>

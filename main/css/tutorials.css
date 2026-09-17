@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "Luckiest Guy Local";
+  src:
+    local("Luckiest Guy"),
+    url("../../OGFN/assets/Fonts/LuckiestGuy.ttf") format("truetype");
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#sidebar {
+  position: fixed;
+  width: 220px;
+  height: 100vh;
+  padding: 20px;
+  border-right: 1px solid #30363d;
+  background-color: #010409;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+#main-content {
+  width: 100%;
+  max-width: 900px;
+  margin-left: 260px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  font-family: "Luckiest Guy Local", cursive;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #58a6ff;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.sidebar-home {
+  color: #58a6ff;
+  font-family: "Luckiest Guy Local", cursive;
+}
+
+.sidebar-divider {
+  margin: 20px 0;
+  border-bottom: 1px solid #30363d;
+}
+
+.nav-link,
+.help-link,
+.sidebar-back-link {
+  display: block;
+  margin-bottom: 10px;
+  color: #58a6ff;
+  font-family: "Luckiest Guy Local", cursive;
+}
+
+.nav-link.active {
+  color: #ffffff;
+}
+
+.help-link {
+  margin-top: 20px;
+}
+
+.home-intro {
+  margin-bottom: 34px;
+}
+
+.home-title,
+.tutorial-title {
+  margin-bottom: 10px;
+}
+
+.home-copy,
+.tutorial-subtitle,
+.step-copy,
+.empty-copy {
+  line-height: 1.7;
+}
+
+.tutorial-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.tutorial-card {
+  display: block;
+  padding: 18px;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  background: #11161f;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.tutorial-card:hover {
+  text-decoration: none;
+  transform: translateY(-4px);
+  border-color: #58a6ff;
+  background: #151c27;
+}
+
+.tutorial-card-image-wrap {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  background: #0d1117;
+}
+
+.tutorial-card-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tutorial-card-title {
+  margin: 14px 0 8px;
+  color: #ffffff;
+  font-family: "Luckiest Guy Local", cursive;
+  font-size: 1.45rem;
+  letter-spacing: 0.04em;
+}
+
+.tutorial-card-meta {
+  margin: 0 0 10px;
+  color: #58a6ff;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.tutorial-card-summary {
+  margin: 0;
+  color: #c9d1d9;
+  line-height: 1.65;
+}
+
+.step {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #30363d;
+}
+
+.step-listing + .step-listing {
+  margin-top: 24px;
+}
+
+.step img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 15px;
+  border: 2px solid #444;
+  border-radius: 8px;
+}
+
+.step img.landscape {
+  max-width: 700px;
+}
+
+.step-meta {
+  margin: 0 0 14px;
+  color: #8b949e;
+  font-size: 0.94rem;
+}
+
+.requirements-list {
+  padding-left: 22px;
+  line-height: 1.8;
+}
+
+.external-link {
+  font-weight: 700;
+}
+
+.empty-state {
+  padding: 22px;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  background: #11161f;
+}
+
+@media (max-width: 768px) {
+  body {
+    display: block;
+  }
+
+  #sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #30363d;
+  }
+
+  #main-content {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .step img {
+    max-width: 100%;
+  }
+}

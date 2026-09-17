@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Itypto | About Me</title>
+    <meta name="description" content="About Itypto, including languages and interests." />
+    <link rel="icon" href="../../Assets/WEB.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/about-me.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <button class="menu-button" type="button" aria-label="Open menu">
+      <span class="menu-button-lines" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+    <button class="music-toggle" id="music-toggle" type="button" aria-label="Turn music off" data-state="on">
+      <span class="music-toggle-icon" aria-hidden="true">
+        <svg class="music-icon-on" viewBox="0 0 32 32">
+          <path d="M6 12.5h6.2l7-5.5c.8-.6 1.8 0 1.8 1v16c0 1-.9 1.6-1.8 1l-7-5.5H6c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2z"></path>
+          <path d="M23.8 12.1A5.2 5.2 0 0 1 23.8 19.9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+          <path d="M27.4 8.8A10 10 0 0 1 27.4 23.2" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+        </svg>
+        <svg class="music-icon-off" viewBox="0 0 32 32">
+          <path d="M6 12.5h6.2l7-5.5c.8-.6 1.8 0 1.8 1v16c0 1-.9 1.6-1.8 1l-7-5.5H6c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2z"></path>
+        </svg>
+      </span>
+    </button>
+
+    <main class="about-layout">
+      <section class="intro-content">
+        <h1>About me</h1>
+        <p class="intro-copy">
+          Hey there! I'm a 14-year-old software and tech enthusiast with a huge passion for coding, retro hardware,
+          and old-school tech. Outside of the digital world, I love playing guitar and managing life with Type 1
+          diabetes.
+        </p>
+
+        <div class="language-panel">
+          <div class="language-row">
+            <p class="language-label">Main Languages:</p>
+            <div class="language-icons">
+              <img
+                src="https://camo.githubusercontent.com/e40f034992be29c0ca8d0f229c0ee3933c03c51bd92e1eb82510f43b38f67641/68747470733a2f2f7777772e7376677265706f2e636f6d2f73686f772f3330333230362f6a6176617363726970742d6c6f676f2e737667"
+                alt="JavaScript"
+              />
+              <img src="https://i.imgur.com/OiFM2Vf.png" alt="Main language icon" />
+            </div>
+          </div>
+
+          <div class="language-row">
+            <p class="language-label">Languages I Have Worked With:</p>
+            <div class="language-icons">
+              <img
+                src="https://camo.githubusercontent.com/0994ed90127449ce643fe08be04d8ce381bd6bdbd93cdc60d6109c9240025945/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f63706c7573706c75732f63706c7573706c75732d6f726967696e616c2e737667"
+                alt="C++"
+              />
+              <img
+                src="https://camo.githubusercontent.com/db4d4559dddb8bb0cf9167b4db83bb666a00e2dee443731526a0dbe1ead6fc34/68747470733a2f2f7777772e7376677265706f2e636f6d2f73686f772f3435323039312f707974686f6e2e737667"
+                alt="Python"
+              />
+              <img
+                src="https://camo.githubusercontent.com/2a818941651a88af1a7f0a5c0da8f56a9f077ce00232b34e581ce57a6bcc4cf8/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f676f2f676f2d6f726967696e616c2e737667"
+                alt="Go"
+              />
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tauri-icon.png"
+                alt="Tauri"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <audio id="about-audio" autoplay loop>
+      <source src="../assets/music/abtMe.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <p class="epic-disclaimer">
+      Portions of the materials used are trademarks and/or copyrighted works of Epic Games, Inc.
+      All rights reserved by Epic. This material is not official and is not endorsed by Epic.
+    </p>
+
+    <script src="../js/menu-dropdown.js"></script>
+    <script>
+      (() => {
+        const audio = document.querySelector("#about-audio");
+        const musicToggle = document.querySelector("#music-toggle");
+        let musicEnabled = true;
+
+        function syncMusicToggle() {
+          if (!musicToggle) {
+            return;
+          }
+
+          musicToggle.dataset.state = musicEnabled ? "on" : "off";
+          musicToggle.setAttribute("aria-label", musicEnabled ? "Turn music off" : "Turn music on");
+        }
+
+        async function tryPlayAudio() {
+          if (!audio || !musicEnabled) {
+            return;
+          }
+
+          audio.volume = 1;
+          audio.muted = false;
+
+          try {
+            await audio.play();
+          } catch (error) {
+          }
+        }
+
+        async function toggleMusic() {
+          if (!audio) {
+            return;
+          }
+
+          musicEnabled = !musicEnabled;
+          syncMusicToggle();
+
+          if (musicEnabled) {
+            audio.muted = false;
+            audio.volume = 1;
+            try {
+              await audio.play();
+            } catch (error) {
+            }
+          } else {
+            audio.pause();
+            audio.muted = true;
+          }
+        }
+
+        if (musicToggle) {
+          musicToggle.addEventListener("click", toggleMusic);
+        }
+
+        syncMusicToggle();
+        tryPlayAudio();
+        document.addEventListener("pointerdown", tryPlayAudio, { once: true });
+        document.addEventListener("keydown", tryPlayAudio, { once: true });
+      })();
+    </script>
+  </body>
+</html>

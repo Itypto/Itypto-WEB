@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itypto Build Archive</title>
+  <meta name="description"
+    content="Welcome page for the Itypto Build Archive with platform selection for Windows and iOS." />
+  <link rel="icon" href="../../Assets/WEB.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" href="../assets/Fonts/LuckiestGuy.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="../assets/Fonts/NewFn.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="../css/builds-landing.css" />
+</head>
+
+<body>
+  <div class="archive-bg" aria-hidden="true"></div>
+  <button class="menu-button" type="button" aria-label="Open menu">
+    <span class="menu-button-lines" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+
+  <main class="landing-layout">
+    <section class="hero-panel">
+      <div class="hero-copy">
+        <h1 class="hero-title">Welcome to the Itypto Build Archive</h1>
+        <p class="hero-text">
+          This is a community archive dedicated to preserving Fortnite builds and historical versions.
+        </p>
+        <p class="hero-text">
+          Please note: I do not host or store any of the game files directly.
+        </p>
+        <p class="hero-text">
+          Credits: All credit for the builds and versions goes to their respective hosts and creators.
+        </p>
+        <a class="hero-scroll-link" href="#platforms" aria-label="Scroll down to platform choices">
+          <img src="../assets/ArrowBack.png" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <section class="platform-section" id="platforms" aria-label="Choose your platform">
+      <div class="platform-shell">
+        <div class="section-header">
+          <div>
+            <h2 class="platform-title">Choose Your Platform</h2>
+          </div>
+          <p class="section-copy">Windows is currently the only available platform.</p>
+        </div>
+
+        <div class="platform-grid">
+          <a class="platform-card" id="windows-card" href="./WindowChapter.html" aria-label="Open Windows builds">
+            <img src="../assets/Windows.png" alt="" />
+          </a>
+
+          <button class="platform-card platform-card-disabled" id="ios-card" type="button"
+            aria-label="iOS builds coming soon">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <p class="epic-disclaimer">
+    Portions of the materials used are trademarks and/or copyrighted works of Epic Games, Inc.
+    All rights reserved by Epic. This material is not official and is not endorsed by Epic.
+  </p>
+
+  <script src="../js/menu-dropdown.js"></script>
+  <script>
+    (() => {
+      const windowsCard = document.querySelector("#windows-card");
+      const iosCard = document.querySelector("#ios-card");
+
+      if (windowsCard) {
+        windowsCard.href = "./WindowChapter.html";
+      }
+
+      if (iosCard) {
+        iosCard.addEventListener("click", () => {
+          iosCard.blur();
+        });
+      }
+    })();
+  </script>
+</body>
+
+</html>

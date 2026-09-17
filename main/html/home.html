@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itypto | Home</title>
+  <meta name="description" content="Home page for Itypto with a live Discord presence card powered by Lanyard." />
+  <link rel="icon" href="../../Assets/WEB.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    (() => {
+      const stylesheet = document.createElement("link");
+      stylesheet.rel = "stylesheet";
+      stylesheet.href = "../css/main.css";
+      document.head.appendChild(stylesheet);
+    })();
+  </script>
+</head>
+
+<body>
+  <div class="donut-rain" id="donut-rain" aria-hidden="true"></div>
+
+  <button class="menu-button" id="menu-button" type="button" aria-label="Open menu">
+    <span class="menu-button-lines" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+
+  <main class="home-layout">
+    <section class="presence-shell" aria-label="Discord presence">
+      <section class="presence-card" aria-live="polite">
+        <div class="profile-row">
+          <div class="avatar-wrap">
+            <img id="discord-avatar" class="discord-avatar" alt="Discord avatar" />
+            <span id="status-dot" class="status-dot status-offline" aria-hidden="true"></span>
+          </div>
+
+          <div class="profile-copy">
+            <div class="name-row">
+              <h2 id="discord-display-name">Loading...</h2>
+            </div>
+            <p id="discord-username" class="secondary-line">Fetching username...</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="home-links" aria-label="Main shortcuts">
+        <button class="shortcut-button shortcut-button-muted" type="button" disabled>Coming soon</button>
+        <button class="shortcut-button shortcut-button-muted" type="button" disabled>Coming soon</button>
+        <a class="shortcut-button shortcut-button-ogfn" id="ogfn-link" href="../../OGFN/Html/OGFN.html"
+          aria-label="Open OGFN">OGFN</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      ["../js/home-menu.js", "../js/home.js"].forEach((src) => {
+        const script = document.createElement("script");
+        script.src = src;
+        document.body.appendChild(script);
+      });
+    })();
+  </script>
+</body>
+
+</html>

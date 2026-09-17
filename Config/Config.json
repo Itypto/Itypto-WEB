@@ -1,0 +1,8 @@
+{
+  "port": 443,
+  "useHttps": true,
+  "https": {
+    "keyPath": "C:/Users/Dator/Desktop/Server/PEM/itypto.ddns.net-key.pem",
+    "certPath": "C:/Users/Dator/Desktop/Server/PEM/itypto.ddns.net-crt.pem"
+  }
+}

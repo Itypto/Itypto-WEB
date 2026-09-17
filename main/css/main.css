@@ -1,0 +1,457 @@
+:root {
+  --bg: #090c11;
+  --surface: #121720;
+  --surface-muted: #1b2230;
+  --text: #f5f7fb;
+  --muted: #9aa5b5;
+  --line: rgba(255, 255, 255, 0.1);
+  --shadow: 0 26px 60px rgba(0, 0, 0, 0.34);
+  --online: #3bb273;
+  --idle: #f0b429;
+  --dnd: #e05263;
+  --offline: #9097a3;
+}
+
+@font-face {
+  font-family: "Luckiest Guy Local";
+  src:
+    local("Luckiest Guy"),
+    url("../../OGFN/assets/Fonts/LuckiestGuy.ttf") format("truetype");
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(87, 103, 139, 0.12), transparent 34%),
+    linear-gradient(180deg, #0d1118, #080a0f 62%);
+  color: var(--text);
+  font-family: "Outfit", "Segoe UI", sans-serif;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+.donut-rain {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.falling-donut {
+  position: absolute;
+  top: -22vh;
+  left: var(--donut-left);
+  width: var(--donut-size);
+  height: var(--donut-size);
+  opacity: var(--donut-opacity);
+  transform: translate3d(-50%, 0, 0) rotate(0deg);
+  animation: donut-fall var(--donut-duration) linear infinite;
+  animation-delay: var(--donut-delay);
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.18));
+}
+
+@keyframes donut-fall {
+  0% {
+    transform: translate3d(-50%, -18vh, 0) rotate(0deg);
+  }
+
+  100% {
+    transform: translate3d(-50%, 125vh, 0) rotate(360deg);
+  }
+}
+
+.menu-button {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(17, 23, 32, 0.96);
+  color: #f5f7fb;
+  cursor: pointer;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.28);
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.menu-button:hover,
+.menu-button:focus-visible {
+  transform: translateY(-2px);
+  background: #1a2230;
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.menu-button-lines {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 24px;
+}
+
+.menu-button-lines span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.site-menu {
+  position: fixed;
+  top: 80px;
+  left: 24px;
+  z-index: 35;
+  display: grid;
+  gap: 8px;
+  min-width: 220px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  background: rgba(14, 18, 26, 0.98);
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(10px);
+}
+
+.site-menu[hidden] {
+  display: none;
+}
+
+.site-menu-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 0 12px;
+  border-radius: 12px;
+  color: #f5f7fb;
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.site-menu-link:hover,
+.site-menu-link:focus-visible {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
+}
+
+.site-menu-group-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 2px 2px 0;
+  color: #94a0b0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.site-menu-group-label::before,
+.site-menu-group-label::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.site-menu-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  color: #f5f7fb;
+}
+
+.site-menu-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.site-menu-icon img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.home-layout {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 108px 24px 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.not-found-layout {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 108px 24px 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.not-found-shell {
+  width: min(760px, 100%);
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.not-found-title {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Luckiest Guy Local", "Outfit", sans-serif;
+  font-size: clamp(3rem, 11vw, 7rem);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.not-found-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  min-height: 56px;
+  margin-top: 30px;
+  padding: 0 20px;
+  border: 1px solid #ffe95a;
+  border-radius: 16px;
+  background: #f6ea3b;
+  color: #161100;
+  font-family: "Luckiest Guy Local", "Outfit", sans-serif;
+  font-size: 1.12rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.not-found-home:hover,
+.not-found-home:focus-visible {
+  transform: translateY(-2px);
+  background: #fff04c;
+}
+
+.presence-shell {
+  width: min(560px, 100%);
+  display: grid;
+  justify-items: center;
+}
+
+.presence-card {
+  width: min(560px, 100%);
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  background:
+    linear-gradient(180deg, rgba(20, 26, 35, 0.98), rgba(12, 16, 23, 0.98)),
+    var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.avatar-wrap {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.discord-avatar {
+  display: block;
+  width: 108px;
+  height: 108px;
+  border-radius: 24px;
+  object-fit: cover;
+  background: var(--surface-muted);
+}
+
+.status-dot {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #121720;
+  border-radius: 999px;
+  background: var(--offline);
+}
+
+.status-online {
+  background: var(--online);
+}
+
+.status-idle {
+  background: var(--idle);
+}
+
+.status-dnd {
+  background: var(--dnd);
+}
+
+.status-offline {
+  background: var(--offline);
+}
+
+.profile-copy {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.name-row h2 {
+  margin: 0;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1;
+}
+
+.secondary-line {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.home-links {
+  display: grid;
+  gap: 12px;
+  width: min(320px, 100%);
+  margin-top: 24px;
+}
+
+.shortcut-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  background: #171d26;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 180ms ease, opacity 180ms ease, background 180ms ease;
+}
+
+.shortcut-button:hover,
+.shortcut-button:focus-visible {
+  transform: translateY(-2px);
+  background: #212938;
+}
+
+.shortcut-button-muted {
+  background: #10151d;
+  color: #748091;
+  cursor: not-allowed;
+}
+
+.shortcut-button-muted:hover,
+.shortcut-button-muted:focus-visible {
+  transform: none;
+  background: #10151d;
+}
+
+.shortcut-button-ogfn {
+  border-color: #ffe95a;
+  background: #f6ea3b;
+  color: #161100;
+  font-family: "Luckiest Guy Local", "Outfit", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.shortcut-button-ogfn:hover,
+.shortcut-button-ogfn:focus-visible {
+  background: #fff04c;
+  box-shadow: none;
+}
+
+@media (max-width: 760px) {
+  .menu-button {
+    top: 14px;
+    left: 14px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .site-menu {
+    top: 62px;
+    left: 14px;
+    min-width: 196px;
+  }
+
+  .home-layout {
+    padding: 84px 16px 28px;
+  }
+
+  .not-found-layout {
+    padding: 84px 16px 28px;
+  }
+
+  .presence-card {
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .not-found-title {
+    font-size: clamp(2.7rem, 16vw, 4.6rem);
+  }
+
+  .profile-row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .falling-donut {
+    animation: none;
+    opacity: 0.18;
+  }
+}

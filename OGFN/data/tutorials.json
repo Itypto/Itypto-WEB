@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Tutorials",
+  "homeTitle": "Tutorials",
+  "homeDescription": "",
+  "tutorials": [
+    {
+      "slug": "ios-guide",
+      "title": "iOS Guide",
+      "platform": "Apple",
+      "type": "Text tutorial",
+      "summary": "Step-by-step iOS install and login guide based on the original layout.",
+      "thumbnail": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%201.png",
+      "helpLink": {
+        "label": "Need Help?",
+        "url": "https://discord.com/users/1061701828544319538"
+      },
+      "requirementsTitle": "Requirements",
+      "requirements": [
+        {
+          "text": "An iOS device"
+        },
+        {
+          "text": "A PC"
+        },
+        {
+          "text": "Sideloadly set up"
+        },
+        {
+          "text": "Don't know how to set up Sideloadly?",
+          "linkText": "Click here",
+          "linkUrl": "https://www.youtube.com/watch?v=iVCDjyopxVA"
+        },
+        {
+          "text": "Developer Mode turned on on the iOS device"
+        },
+        {
+          "text": "Don't know how to turn on Developer Mode?",
+          "linkText": "Click here",
+          "linkUrl": "https://youtube.com/shorts/baXZmyk_A00?si=S-0Di0w-8ZD7LIGu"
+        },
+        {
+          "text": "5 GB of free usable storage"
+        },
+        {
+          "text": "Device used in tutorial: iPhone XS Max"
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "navLabel": "Steps 1-4",
+          "steps": [
+            {
+              "title": "Step 1",
+              "text": "Go to the downloads channel in Discord and click \"Here\" under iOS to download the IPA.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%201.png",
+              "landscape": true
+            },
+            {
+              "title": "Step 2",
+              "text": "Open Sideloadly, select the IPA, connect your iOS device, enter your Apple ID, and click \"Start\".",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%202.png",
+              "landscape": true
+            },
+            {
+              "title": "Step 3",
+              "text": "If the app says \"Untrusted Developer\", open Settings.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%203.PNG"
+            },
+            {
+              "title": "Step 4",
+              "text": "In Settings, tap \"General\".",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%204.PNG"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "navLabel": "Steps 5-8",
+          "steps": [
+            {
+              "title": "Step 5",
+              "text": "Scroll down and tap \"VPN & Device Management\".",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%205.PNG"
+            },
+            {
+              "title": "Step 6",
+              "text": "Under Developer App, tap your Apple ID.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%206.PNG"
+            },
+            {
+              "title": "Step 7",
+              "text": "Tap \"Trust\" for your Apple ID.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%207.PNG"
+            },
+            {
+              "title": "Step 8",
+              "text": "Tap \"Allow\" to confirm that you trust the developer.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%208.PNG"
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "navLabel": "Steps 9-12",
+          "steps": [
+            {
+              "title": "Step 9",
+              "text": "Open the app and wait for the game data to download.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%209.PNG",
+              "landscape": true
+            },
+            {
+              "title": "Step 10",
+              "text": "When the welcome screen appears, tap \"LOGIN\".",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2010.PNG",
+              "landscape": true
+            },
+            {
+              "title": "Step 11",
+              "text": "Select \"Epic Games\" as your login method.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2011.PNG",
+              "landscape": true
+            },
+            {
+              "title": "Step 12",
+              "text": "Once you reach this screen, close the app and go back to Discord.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2012.PNG",
+              "landscape": true
+            }
+          ]
+        },
+        {
+          "id": "s13",
+          "navLabel": "Steps 13-17",
+          "steps": [
+            {
+              "title": "Step 13",
+              "text": "Go to the Discord downloads channel and tap \"Here\" under your mobile login info.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2013.PNG"
+            },
+            {
+              "title": "Step 14",
+              "text": "Copy the email address and password shown on the login info page.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2014.PNG"
+            },
+            {
+              "title": "Step 15",
+              "text": "Return to the login screen, enter the email and password, and tap \"LOG IN\".",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2015.PNG",
+              "landscape": true
+            },
+            {
+              "title": "Step 16",
+              "text": "Read the End User License Agreement and tap \"ACCEPT\".",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2016.png",
+              "landscape": true
+            },
+            {
+              "title": "Step 17",
+              "text": "You are now ready to play.",
+              "image": "https://nextieria.ddns.net:45/Downloads/Images/Tutorial/iOS/Step%2017.png",
+              "landscape": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

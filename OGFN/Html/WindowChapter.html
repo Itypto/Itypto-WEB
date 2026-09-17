@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itypto Builds - Windows</title>
+  <meta name="description" content="Windows chapter selection for the Itypto Build Archive." />
+  <link rel="icon" href="../../Assets/WEB.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" href="../assets/Fonts/LuckiestGuy.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="../css/ogfn-archive.css" />
+</head>
+
+<body>
+  <div class="archive-bg" aria-hidden="true"></div>
+  <button class="menu-button" type="button" aria-label="Open menu">
+    <span class="menu-button-lines" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+  <button class="music-toggle" id="music-toggle" type="button" aria-label="Turn music on" data-state="off">
+    <span class="music-toggle-icon" aria-hidden="true">
+      <svg class="music-icon-on" viewBox="0 0 32 32">
+        <path d="M6 12.5h6.2l7-5.5c.8-.6 1.8 0 1.8 1v16c0 1-.9 1.6-1.8 1l-7-5.5H6c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2z">
+        </path>
+        <path d="M23.8 12.1A5.2 5.2 0 0 1 23.8 19.9" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round"></path>
+        <path d="M27.4 8.8A10 10 0 0 1 27.4 23.2" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round"></path>
+      </svg>
+      <svg class="music-icon-off" viewBox="0 0 32 32">
+        <path d="M6 12.5h6.2l7-5.5c.8-.6 1.8 0 1.8 1v16c0 1-.9 1.6-1.8 1l-7-5.5H6c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2z">
+        </path>
+      </svg>
+    </span>
+  </button>
+
+  <main class="chapter-layout">
+    <h1 class="chapter-title">Select a Chapter</h1>
+
+    <section class="chapter-grid" aria-label="Build chapters">
+      <article class="chapter-card">
+        <img src="../assets/Subch/Ch1.png" alt="Chapter 1" />
+        <a class="chapter-select" data-chapter-link="ch1" href="./ch1/" aria-label="Open Chapter 1 builds">
+          <img src="../assets/SelectButtton.png" alt="" />
+        </a>
+      </article>
+
+      <article class="chapter-card">
+        <img src="../assets/Subch/Ch2.png" alt="Chapter 2" />
+        <a class="chapter-select" data-chapter-link="ch2" href="./ch2/" aria-label="Open Chapter 2 builds">
+          <img src="../assets/SelectButtton.png" alt="" />
+        </a>
+      </article>
+
+      <article class="chapter-card">
+        <img src="../assets/Subch/Ch3.png" alt="Chapter 3" />
+        <a class="chapter-select" data-chapter-link="ch3" href="./ch3/" aria-label="Open Chapter 3 builds">
+          <img src="../assets/SelectButtton.png" alt="" />
+        </a>
+      </article>
+
+      <article class="chapter-card">
+        <img src="../assets/Subch/Chapter4.png" alt="Chapter 4" />
+        <a class="chapter-select" data-chapter-link="ch4" href="./ch4/" aria-label="Open Chapter 4 builds">
+          <img src="../assets/SelectButtton.png" alt="" />
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <audio id="select-audio" muted loop>
+    <source src="../assets/music/Select.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <p class="epic-disclaimer">
+    Portions of the materials used are trademarks and/or copyrighted works of Epic Games, Inc.
+    All rights reserved by Epic. This material is not official and is not endorsed by Epic.
+  </p>
+
+  <script src="../js/menu-dropdown.js"></script>
+  <script src="../js/select-audio-state.js"></script>
+  <script>
+    (() => {
+      const audio = document.querySelector("#select-audio");
+      const musicToggle = document.querySelector("#music-toggle");
+      const musicToggleText = document.querySelector("#music-toggle-text");
+      const chapterLinks = document.querySelectorAll("[data-chapter-link]");
+      const sourcePath = "../assets/music/Select.mp3";
+
+      chapterLinks.forEach((link) => {
+        const chapterId = link.dataset.chapterLink;
+        link.href = `./${chapterId}/`;
+      });
+
+      if (window.OGFNSelectAudioState && audio) {
+        window.OGFNSelectAudioState.init({
+          audio,
+          musicToggle,
+          musicToggleText,
+          sourcePath,
+          navigationSelector: "[data-chapter-link]",
+        });
+      }
+    })();
+  </script>
+</body>
+
+</html>

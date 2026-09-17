@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itypto | OGFN</title>
+  <meta name="description" content="OGFN hub page with quick access to builds, assets, and projects." />
+  <link rel="icon" href="../../Assets/WEB.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" href="../assets/Fonts/LuckiestGuy.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="../css/ogfn-landing.css" />
+</head>
+
+<body>
+  <div class="archive-bg" aria-hidden="true"></div>
+  <button class="menu-button" type="button" aria-label="Open menu">
+    <span class="menu-button-lines" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+
+  <main class="landing-layout">
+    <section class="hub-panel" aria-label="OGFN hub">
+      <div class="hub-button-stack">
+        <a class="hub-button" id="hub-builds-link" href="./WindowChapter.html">Builds</a>
+        <a class="hub-button" id="hub-tutorials-link" href="./Tutorials.html">Tutorials</a>
+        <a class="hub-button" id="hub-assets-link" href="./Assets.html">Assets</a>
+        <a class="hub-button" id="hub-projects-link" href="./Project.html">Projects</a>
+      </div>
+    </section>
+  </main>
+
+  <p class="epic-disclaimer">
+    Portions of the materials used are trademarks and/or copyrighted works of Epic Games, Inc.
+    All rights reserved by Epic. This material is not official and is not endorsed by Epic.
+  </p>
+
+  <script src="../js/menu-dropdown.js"></script>
+  <script>
+    (() => {
+      const buildsLink = document.querySelector("#hub-builds-link");
+      const tutorialsLink = document.querySelector("#hub-tutorials-link");
+      const assetsLink = document.querySelector("#hub-assets-link");
+      const projectsLink = document.querySelector("#hub-projects-link");
+
+      if (buildsLink) {
+        buildsLink.href = "./Builds.html";
+      }
+
+      if (tutorialsLink) {
+        tutorialsLink.href = "./Tutorials.html";
+      }
+
+      if (assetsLink) {
+        assetsLink.href = "./Assets.html";
+      }
+
+      if (projectsLink) {
+        projectsLink.href = "./Project.html";
+      }
+    })();
+  </script>
+</body>
+
+</html>

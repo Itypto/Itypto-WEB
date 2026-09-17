@@ -1,0 +1,3920 @@
+window.OGFN_BUILDS = {
+  "chapters": [
+    {
+      "id": "ch1",
+      "name": "Chapter 1",
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "name": "Season 1",
+          "builds": [
+            {
+              "displayName": "1.8.0 (Release-Live-CL-3724489)",
+              "version": "1.8.0",
+              "info": "Release-Live-CL-3724489",
+              "clNumber": "3724489",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/1.8.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/1.8.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://archive.org/download/1.8_20241223/1.8.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "1.8.1 (Release-Live-CL-3729133)",
+              "version": "1.8.1",
+              "info": "Release-Live-CL-3729133",
+              "clNumber": "3729133",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/1.8.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/1.8.1.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://drive.google.com/file/d/1LRDuxDPIOLwW0rXu0tbQL8f1s_sCHm_K/view"
+                }
+              ]
+            },
+            {
+              "displayName": "1.8.2 (Release-Live-CL-3741772)",
+              "version": "1.8.2",
+              "info": "Release-Live-CL-3741772",
+              "clNumber": "3741772",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/1.8.2.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/1.8.2.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://archive.org/download/fortnite-release-1.8.2-cl-3741772/%2B%2BFortnite%2BRelease-1.8.2-CL-3741772.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "1.9.0 (Release-Live-CL-3757339)",
+              "version": "1.9.0",
+              "info": "Release-Live-CL-3757339",
+              "clNumber": "3757339",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/1.9.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/1.9.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "1.9.1 (Release-Cert-CL-3775276)",
+              "version": "1.9.1",
+              "info": "Release-Cert-CL-3775276",
+              "clNumber": "3775276",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/1.9.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/1.9.1.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "Unknown Build (Release-Cert-CL-3785438)",
+              "version": null,
+              "info": "Release-Cert-CL-3785438",
+              "clNumber": "3785438",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "1.10.0 (Release-Cert-CL-3790078)",
+              "version": "1.10.0",
+              "info": "Release-Cert-CL-3790078",
+              "clNumber": "3790078",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/1.10.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/1.10.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 2,
+          "name": "Season 2",
+          "builds": [
+            {
+              "displayName": "1.11.0 (Release-Cert-CL-3807424)",
+              "version": "1.11.0",
+              "info": "Release-Cert-CL-3807424",
+              "clNumber": "3807424",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/1.11.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/1.11.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "2.1.0 (Release-Cert-CL-3825894)",
+              "version": "2.1.0",
+              "info": "Release-Cert-CL-3825894",
+              "clNumber": "3825894",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/2.1.0.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/2.1.0.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "2.2.0 (2.2.0-CL-3841827)",
+              "version": "2.2.0",
+              "info": "2.2.0-CL-3841827",
+              "clNumber": "3841827",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/2.2.0.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "2.3.0 (2.3.0-CL-3847564)",
+              "version": "2.3.0",
+              "info": "2.3.0-CL-3847564",
+              "clNumber": "3847564",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/2.3.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/2.3.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "2.3.2 (2.3.2-CL-3856999)",
+              "version": "2.3.2",
+              "info": "2.3.2-CL-3856999",
+              "clNumber": "3856999",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "2.4.0 (2.4.0-CL-3858292)",
+              "version": "2.4.0",
+              "info": "2.4.0-CL-3858292",
+              "clNumber": "3858292",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/2.4.0.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/2.4.0.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "2.4.2 (2.4.2-CL-3870737)",
+              "version": "2.4.2",
+              "info": "2.4.2-CL-3870737",
+              "clNumber": "3870737",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/2.4.2.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/2.4.2.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "2.4.X (2.4.x-CL-3876086)",
+              "version": "2.4.X",
+              "info": "2.4.x-CL-3876086",
+              "clNumber": "3876086",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "2.5.0 (2.5-CL-3889387)",
+              "version": "2.5.0",
+              "info": "2.5-CL-3889387",
+              "clNumber": "3889387",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/2.5.0.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/2.5.0.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 3,
+          "name": "Season 3",
+          "builds": [
+            {
+              "displayName": "3.00 (3.0.0-CL-3901517)",
+              "version": "3.00",
+              "info": "3.0.0-CL-3901517",
+              "clNumber": "3901517",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/3.0.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/3.0.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "3.10 (3.1-CL-3915963)",
+              "version": "3.10",
+              "info": "3.1-CL-3915963",
+              "clNumber": "3915963",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/3.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/3.1.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "3.10.1 (3.1-CL-3917250)",
+              "version": "3.10.1",
+              "info": "3.1-CL-3917250",
+              "clNumber": "3917250",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/3.1.1.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/3.1.1.zip"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://drive.google.com/file/d/16c1NDzWZc_zb9nQV4ICj1LM9XvBtAGDJ/view"
+                }
+              ]
+            },
+            {
+              "displayName": "3.20 (3.2-CL-3929794)",
+              "version": "3.20",
+              "info": "3.2-CL-3929794",
+              "clNumber": "3929794",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "3.20.1 (3.2-CL-3935073)",
+              "version": "3.20.1",
+              "info": "3.2-CL-3935073",
+              "clNumber": "3935073",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/3.2.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/3.2.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "3.30 (3.3-CL-3942182)",
+              "version": "3.30",
+              "info": "3.3-CL-3942182",
+              "clNumber": "3942182",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/3.3.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/3.3.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "3.30.1 (3.3-CL-3948073)",
+              "version": "3.30.1",
+              "info": "3.3-CL-3948073",
+              "clNumber": "3948073",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "3.40 (3.4-CL-3968866)",
+              "version": "3.40",
+              "info": "3.4-CL-3968866",
+              "clNumber": "3968866",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "3.40.1 (3.4-CL-3973340)",
+              "version": "3.40.1",
+              "info": "3.4-CL-3973340",
+              "clNumber": "3973340",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "3.50 (3.5-CL-3994867)",
+              "version": "3.50",
+              "info": "3.5-CL-3994867",
+              "clNumber": "3994867",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "3.50.1 (3.5-CL-4000805)",
+              "version": "3.50.1",
+              "info": "3.5-CL-4000805",
+              "clNumber": "4000805",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "3.50.2 (3.5-CL-4008490)",
+              "version": "3.50.2",
+              "info": "3.5-CL-4008490",
+              "clNumber": "4008490",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/3.5.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/3.5.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "3.60 (3.6-CL-4019403)",
+              "version": "3.60",
+              "info": "3.6-CL-4019403",
+              "clNumber": "4019403",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://archive.org/download/fortnite-v3.6/Fortnite%20v3.6.7z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 4,
+          "name": "Season 4",
+          "builds": [
+            {
+              "displayName": "4.00 (4.0-CL-4039451)",
+              "version": "4.00",
+              "info": "4.0-CL-4039451",
+              "clNumber": "4039451",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/4.0.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/4.0.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "4.10 (4.1-CL-4053532)",
+              "version": "4.10",
+              "info": "4.1-CL-4053532",
+              "clNumber": "4053532",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://drive.google.com/file/d/1IEdNjXpDPE7cQKaZK1JJS_SrYWSDn23d/view"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://archive.org/download/Fortnite-4.10-CL-4053532.zip/4.10-CL-4053532.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "4.20 (4.2-CL-4072250)",
+              "version": "4.20",
+              "info": "4.2-CL-4072250",
+              "clNumber": "4072250",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/4.2.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/4.2.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "4.30 (4.3-CL-4095806)",
+              "version": "4.30",
+              "info": "4.3-CL-4095806",
+              "clNumber": "4095806",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "4.30.1 (4.3-CL-4103483)",
+              "version": "4.30.1",
+              "info": "4.3-CL-4103483",
+              "clNumber": "4103483",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "4.40 (4.4-CL-4117433)",
+              "version": "4.40",
+              "info": "4.4-CL-4117433",
+              "clNumber": "4117433",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/4.4.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/4.4.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "4.40.1 (4.4-CL-4127312)",
+              "version": "4.40.1",
+              "info": "4.4-CL-4127312",
+              "clNumber": "4127312",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/4.4.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1vH7HuOlTWjdL2Ione1ZLKXmjTV2cYhrm/view"
+                }
+              ]
+            },
+            {
+              "displayName": "4.4.X (4.4.x-CL-4132537)",
+              "version": "4.4.X",
+              "info": "4.4.x-CL-4132537",
+              "clNumber": "4132537",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "4.50 (4.5-CL-4159770)",
+              "version": "4.50",
+              "info": "4.5-CL-4159770",
+              "clNumber": "4159770",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/4.5.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/4.5.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "4.50.1 (4.5-CL-4166199)",
+              "version": "4.50.1",
+              "info": "4.5-CL-4166199",
+              "clNumber": "4166199",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://drive.google.com/file/d/1uZ2IO1aY41HmWgq-hb-eyWtXnomkj0nc/view"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 5,
+          "name": "Season 5",
+          "builds": [
+            {
+              "displayName": "5.00 (5.00-CL-4204761)",
+              "version": "5.00",
+              "info": "5.00-CL-4204761",
+              "clNumber": "4204761",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/5.00.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/5.00.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "5.00.1 (5.00-CL-4214610)",
+              "version": "5.00.1",
+              "info": "5.00-CL-4214610",
+              "clNumber": "4214610",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/5.0.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/5.0.1.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "5.10 (5.10-CL-4225813)",
+              "version": "5.10",
+              "info": "5.10-CL-4225813",
+              "clNumber": "4225813",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "5.10.1 (5.10-CL-4240749)",
+              "version": "5.10.1",
+              "info": "5.10-CL-4240749",
+              "clNumber": "4240749",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/5.10.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/5.10.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "5.20 (5.20-CL-4259375)",
+              "version": "5.20",
+              "info": "5.20-CL-4259375",
+              "clNumber": "4259375",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "5.20.1 (5.20-CL-4276938)",
+              "version": "5.20.1",
+              "info": "5.20-CL-4276938",
+              "clNumber": "4276938",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "5.21 (5.21-CL-4281534)",
+              "version": "5.21",
+              "info": "5.21-CL-4281534",
+              "clNumber": "4281534",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "5.21.1 (5.21-CL-4288479)",
+              "version": "5.21.1",
+              "info": "5.21-CL-4288479",
+              "clNumber": "4288479",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/5.21.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/5.21.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "5.30 (5.30-CL-4305896)",
+              "version": "5.30",
+              "info": "5.30-CL-4305896",
+              "clNumber": "4305896",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/5.30.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/5.30.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "5.40 (5.40-CL-4351695)",
+              "version": "5.40",
+              "info": "5.40-CL-4351695",
+              "clNumber": "4351695",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "5.40.1 (5.40-CL-4352937)",
+              "version": "5.40.1",
+              "info": "5.40-CL-4352937",
+              "clNumber": "4352937",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/5.40.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/5.40.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "5.41 (5.41-CL-4363240)",
+              "version": "5.41",
+              "info": "5.41-CL-4363240",
+              "clNumber": "4363240",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public-build-archives-bucket.erafn.dev/5.41.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://archive.org/download/Fortnite-5.41-CL-4363240.zip/5.41-CL-4363240.zip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 6,
+          "name": "Season 6",
+          "builds": [
+            {
+              "displayName": "6.00 (6.00-CL-4395664)",
+              "version": "6.00",
+              "info": "6.00-CL-4395664",
+              "clNumber": "4395664",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.00.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.00.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.00.1 (6.00-CL-4402180)",
+              "version": "6.00.1",
+              "info": "6.00-CL-4402180",
+              "clNumber": "4402180",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "6.01 (6.01-CL-4417689)",
+              "version": "6.01",
+              "info": "6.01-CL-4417689",
+              "clNumber": "4417689",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.01.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.01.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://archive.org/download/Fortnite-6.01-CL-4417689.rar/6.01-CL-4417689.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.01.1 (6.01-CL-4424678)",
+              "version": "6.01.1",
+              "info": "6.01-CL-4424678",
+              "clNumber": "4424678",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.1.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://build.rebootfn.org/6.1.1.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://drive.google.com/file/d/1u-bij6Gq9_wEVM1G04TP7JI2txNrakQb/view"
+                }
+              ]
+            },
+            {
+              "displayName": "6.02 (6.02-CL-4442095)",
+              "version": "6.02",
+              "info": "6.02-CL-4442095",
+              "clNumber": "4442095",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.02.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.02.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.02.1 (6.02-CL-4461277)",
+              "version": "6.02.1",
+              "info": "6.02-CL-4461277",
+              "clNumber": "4461277",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.2.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.2.1.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://drive.google.com/file/d/1SlWF87kNH1PKwu-cRWyuktrS2vVt-pHz/view"
+                }
+              ]
+            },
+            {
+              "displayName": "6.10 (6.10-CL-4464155)",
+              "version": "6.10",
+              "info": "6.10-CL-4464155",
+              "clNumber": "4464155",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.10.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.10.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.10.1 (6.10-CL-4476098)",
+              "version": "6.10.1",
+              "info": "6.10-CL-4476098",
+              "clNumber": "4476098",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.10.1.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.10.1.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.10.2 (6.10-CL-4480234)",
+              "version": "6.10.2",
+              "info": "6.10-CL-4480234",
+              "clNumber": "4480234",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://builds.rebootfn.org/6.10.2.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1z0S3S8Khz8hY8qL7UbL9FYti5u6qVxsr/view"
+                }
+              ]
+            },
+            {
+              "displayName": "6.20 (6.20-CL-4497486)",
+              "version": "6.20",
+              "info": "6.20-CL-4497486",
+              "clNumber": "4497486",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-6.20-CL-4497486.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.20.1 (6.20-CL-4504220)",
+              "version": "6.20.1",
+              "info": "6.20-CL-4504220",
+              "clNumber": "4504220",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "6.21 (6.21-CL-4526925)",
+              "version": "6.21",
+              "info": "6.21-CL-4526925",
+              "clNumber": "4526925",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.21.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.21.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://public-build-archives-bucket.erafn.dev/6.21.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "6.21.1 (6.21-CL-4531851)",
+              "version": "6.21.1",
+              "info": "6.21-CL-4531851",
+              "clNumber": "4531851",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "6.22 (6.22-CL-4541220)",
+              "version": "6.22",
+              "info": "6.22-CL-4541220",
+              "clNumber": "4541220",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "6.22.1 (6.22-CL-4543176)",
+              "version": "6.22.1",
+              "info": "6.22-CL-4543176",
+              "clNumber": "4543176",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.22.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.22.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.30 (6.30-CL-4579044)",
+              "version": "6.30",
+              "info": "6.30-CL-4579044",
+              "clNumber": "4579044",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.30.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.30.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "6.31 (6.31-CL-4573279)",
+              "version": "6.31",
+              "info": "6.31-CL-4573279",
+              "clNumber": "4573279",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/6.31.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/6.31.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 7,
+          "name": "Season 7",
+          "builds": [
+            {
+              "displayName": "7.00 (7.00-CL-4629139)",
+              "version": "7.00",
+              "info": "7.00-CL-4629139",
+              "clNumber": "4629139",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/7.00.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/7.00.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "7.01 (7.01-CL-4648651)",
+              "version": "7.01",
+              "info": "7.01-CL-4648651",
+              "clNumber": "4648651",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "7.10 (7.10-CL-4667333)",
+              "version": "7.10",
+              "info": "7.10-CL-4667333",
+              "clNumber": "4667333",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/7.10.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/7.10.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://drive.google.com/file/d/1ddhWJsKAgSyaQamPOw03LugLC5wcnzbB/view"
+                }
+              ]
+            },
+            {
+              "displayName": "7.20 (7.20-CL-4716934)",
+              "version": "7.20",
+              "info": "7.20-CL-4716934",
+              "clNumber": "4716934",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "7.20.1 (7.20-CL-4727874)",
+              "version": "7.20.1",
+              "info": "7.20-CL-4727874",
+              "clNumber": "4727874",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/7.20.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/7.20.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "7.30 (7.30-CL-4821335)",
+              "version": "7.30",
+              "info": "7.30-CL-4821335",
+              "clNumber": "4821335",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "7.30.1 (7.30-CL-4834550)",
+              "version": "7.30.1",
+              "info": "7.30-CL-4834550",
+              "clNumber": "4834550",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/7.30.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/7.30.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "7.30.2 (7.30-CL-4869070)",
+              "version": "7.30.2",
+              "info": "7.30-CL-4869070",
+              "clNumber": "4869070",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "7.40 (7.40-CL-4980899)",
+              "version": "7.40",
+              "info": "7.40-CL-4980899",
+              "clNumber": "4980899",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "7.40.1 (7.40-CL-4996168)",
+              "version": "7.40.1",
+              "info": "7.40-CL-4996168",
+              "clNumber": "4996168",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "7.40.2 (7.40-CL-5012948)",
+              "version": "7.40.2",
+              "info": "7.40-CL-5012948",
+              "clNumber": "5012948",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "7.40.3 (7.40-CL-5046157)",
+              "version": "7.40.3",
+              "info": "7.40-CL-5046157",
+              "clNumber": "5046157",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/7.40.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://public.simplyblk.xyz/7.40.zip"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://builds.rebootfn.org/7.40.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 8,
+          "name": "Season 8",
+          "builds": [
+            {
+              "displayName": "8.00 (8.00-CL-5203069)",
+              "version": "8.00",
+              "info": "8.00-CL-5203069",
+              "clNumber": "5203069",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/8.00.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/8.00.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "8.00.1 (8.00-CL-5251086)",
+              "version": "8.00.1",
+              "info": "8.00-CL-5251086",
+              "clNumber": "5251086",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.00.2 (8.00-CL-5274521)",
+              "version": "8.00.2",
+              "info": "8.00-CL-5274521",
+              "clNumber": "5274521",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.01 (8.01-CL-5285981)",
+              "version": "8.01",
+              "info": "8.01-CL-5285981",
+              "clNumber": "5285981",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.10 (8.10-CL-5362200)",
+              "version": "8.10",
+              "info": "8.10-CL-5362200",
+              "clNumber": "5362200",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.10.1 (8.10-CL-5372009)",
+              "version": "8.10.1",
+              "info": "8.10-CL-5372009",
+              "clNumber": "5372009",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.11 (8.11-CL-5442615)",
+              "version": "8.11",
+              "info": "8.11-CL-5442615",
+              "clNumber": "5442615",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.20 (8.20-CL-5547534)",
+              "version": "8.20",
+              "info": "8.20-CL-5547534",
+              "clNumber": "5547534",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.20.1 (8.20-CL-5625478)",
+              "version": "8.20.1",
+              "info": "8.20-CL-5625478",
+              "clNumber": "5625478",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/8.20.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/8.20.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "8.30 (8.30-CL-5793395)",
+              "version": "8.30",
+              "info": "8.30-CL-5793395",
+              "clNumber": "5793395",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/8.30.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/8.30.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "8.30.1 (8.30-CL-5822617)",
+              "version": "8.30.1",
+              "info": "8.30-CL-5822617",
+              "clNumber": "5822617",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.30.2 (8.30-CL-5831510)",
+              "version": "8.30.2",
+              "info": "8.30-CL-5831510",
+              "clNumber": "5831510",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.40 (8.40-CL-5914491)",
+              "version": "8.40",
+              "info": "8.40-CL-5914491",
+              "clNumber": "5914491",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "8.40.1 (8.40-CL-6005771)",
+              "version": "8.40.1",
+              "info": "8.40-CL-6005771",
+              "clNumber": "6005771",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/8.40.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/8.40.zip"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://archive.org/download/Fortnite-8.40-CL-6005771.zip/8.40-CL-6005771.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "8.50 (8.50-CL-6058028)",
+              "version": "8.50",
+              "info": "8.50-CL-6058028",
+              "clNumber": "6058028",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/8.50.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/8.50.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "8.51 (8.51-CL-6165369)",
+              "version": "8.51",
+              "info": "8.51-CL-6165369",
+              "clNumber": "6165369",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/8.51.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/8.51.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 9,
+          "name": "Season 9",
+          "builds": [
+            {
+              "displayName": "9.00 (9.00-CL-6337466)",
+              "version": "9.00",
+              "info": "9.00-CL-6337466",
+              "clNumber": "6337466",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.00.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/9.00.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "9.01 (9.01-CL-6428087)",
+              "version": "9.01",
+              "info": "9.01-CL-6428087",
+              "clNumber": "6428087",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.01.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/9.01.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "9.10 (9.10-CL-6573057)",
+              "version": "9.10",
+              "info": "9.10-CL-6573057",
+              "clNumber": "6573057",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "9.10.1 (9.10-CL-6616201)",
+              "version": "9.10.1",
+              "info": "9.10-CL-6616201",
+              "clNumber": "6616201",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "9.10.2 (9.10-CL-6639283)",
+              "version": "9.10.2",
+              "info": "9.10-CL-6639283",
+              "clNumber": "6639283",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.10.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/9.10.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://cdn.solarisfn.dev/Builds/9.10.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "9.20 (9.20-CL-6822798)",
+              "version": "9.20",
+              "info": "9.20-CL-6822798",
+              "clNumber": "6822798",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.20.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "9.21 (9.21-CL-6922310)",
+              "version": "9.21",
+              "info": "9.21-CL-6922310",
+              "clNumber": "6922310",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.21.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/9.21.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "9.30 (9.30-CL-7021684)",
+              "version": "9.30",
+              "info": "9.30-CL-7021684",
+              "clNumber": "7021684",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "9.30.1 (9.30-CL-7095426)",
+              "version": "9.30.1",
+              "info": "9.30-CL-7095426",
+              "clNumber": "7095426",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.30.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/9.30.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "9.40 (9.40-CL-7315705)",
+              "version": "9.40",
+              "info": "9.40-CL-7315705",
+              "clNumber": "7315705",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.40.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/9.40.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "9.41 (9.41-CL-7463579)",
+              "version": "9.41",
+              "info": "9.41-CL-7463579",
+              "clNumber": "7463579",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "9.41.1 (9.41-CL-7609292)",
+              "version": "9.41.1",
+              "info": "9.41-CL-7609292",
+              "clNumber": "7609292",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/9.41.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/9.41.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 10,
+          "name": "Season 10",
+          "builds": [
+            {
+              "displayName": "10.00 (10.00-CL-7658179)",
+              "version": "10.00",
+              "info": "10.00-CL-7658179",
+              "clNumber": "7658179",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/10.000.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "10.00.1 (10.00-CL-7704164)",
+              "version": "10.00.1",
+              "info": "10.00-CL-7704164",
+              "clNumber": "7704164",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/10.00.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/10.00.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "10.10 (10.10-CL-7955722)",
+              "version": "10.10",
+              "info": "10.10-CL-7955722",
+              "clNumber": "7955722",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/10.10.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/10.10.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "10.20 (10.20-CL-8243923)",
+              "version": "10.20",
+              "info": "10.20-CL-8243923",
+              "clNumber": "8243923",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "10.20.1 (10.20-CL-8360257)",
+              "version": "10.20.1",
+              "info": "10.20-CL-8360257",
+              "clNumber": "8360257",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "10.20.2 (10.20-CL-8456527)",
+              "version": "10.20.2",
+              "info": "10.20-CL-8456527",
+              "clNumber": "8456527",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/10.20.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/10.20.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "10.30 (10.30-CL-8569414)",
+              "version": "10.30",
+              "info": "10.30-CL-8569414",
+              "clNumber": "8569414",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "10.31 (10.31-CL-8723043)",
+              "version": "10.31",
+              "info": "10.31-CL-8723043",
+              "clNumber": "8723043",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/10.31.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://builds.rebootfn.org/10.31.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "10.40 (10.40-CL-8970213)",
+              "version": "10.40",
+              "info": "10.40-CL-8970213",
+              "clNumber": "8970213",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "10.40.1 (10.40-CL-9302865)",
+              "version": "10.40.1",
+              "info": "10.40-CL-9302865",
+              "clNumber": "9302865",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "10.40.2 (10.40-CL-9380822)",
+              "version": "10.40.2",
+              "info": "10.40-CL-9380822",
+              "clNumber": "9380822",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/10.40.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1rnUcUJVeqjNhVDIODz5TB"
+                }
+              ],
+              "notes": [
+                "The final alternative link was provided in truncated form."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "name": "Chapter 2",
+      "seasons": [
+        {
+          "seasonNumber": 11,
+          "name": "Season 11",
+          "builds": [
+            {
+              "displayName": "11.00-CL-9562734",
+              "version": "11.00",
+              "info": "11.00-CL-9562734",
+              "clNumber": "9562734",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://archive.org/download/Fortnite-11.00-CL-9562734.7z/11.00-CL-9562734.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "11.00-CL-9603448",
+              "version": "11.00",
+              "info": "11.00-CL-9603448",
+              "clNumber": "9603448",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/11.00.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "11.01-CL-9728272",
+              "version": "11.01",
+              "info": "11.01-CL-9728272",
+              "clNumber": "9728272",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "11.10-CL-9844520",
+              "version": "11.10",
+              "info": "11.10-CL-9844520",
+              "clNumber": "9844520",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "11.10-CL-9901083",
+              "version": "11.10",
+              "info": "11.10-CL-9901083",
+              "clNumber": "9901083",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-11.10-CL-9901083.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "11.11-CL-10082788",
+              "version": "11.11",
+              "info": "11.11-CL-10082788",
+              "clNumber": "10082788",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "11.20-CL-10297577",
+              "version": "11.20",
+              "info": "11.20-CL-10297577",
+              "clNumber": "10297577",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "11.20-CL-10328358",
+              "version": "11.20",
+              "info": "11.20-CL-10328358",
+              "clNumber": "10328358",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "11.21-CL-10481509",
+              "version": "11.21",
+              "info": "11.21-CL-10481509",
+              "clNumber": "10481509",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "11.30-CL-10639804",
+              "version": "11.30",
+              "info": "11.30-CL-10639804",
+              "clNumber": "10639804",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "11.30-CL-10708866",
+              "version": "11.30",
+              "info": "11.30-CL-10708866",
+              "clNumber": "10708866",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/11.30.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "11.31-CL-10760473",
+              "version": "11.31",
+              "info": "11.31-CL-10760473",
+              "clNumber": "10760473",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "11.31-CL-10795579",
+              "version": "11.31",
+              "info": "11.31-CL-10795579",
+              "clNumber": "10795579",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "11.31-CL-10800459",
+              "version": "11.31",
+              "info": "11.31-CL-10800459",
+              "clNumber": "10800459",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/11.31.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1s3AVQ39T56uDrGrIEk9djHqVucW5Yx_J/view"
+                }
+              ]
+            },
+            {
+              "displayName": "11.40-CL-10951104",
+              "version": "11.40",
+              "info": "11.40-CL-10951104",
+              "clNumber": "10951104",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "11.40-CL-11039906",
+              "version": "11.40",
+              "info": "11.40-CL-11039906",
+              "clNumber": "11039906",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-11.40-CL-11039906.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "11.40-CL-11109625",
+              "version": "11.40",
+              "info": "11.40-CL-11109625",
+              "clNumber": "11109625",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "11.50-CL-11204868",
+              "version": "11.50",
+              "info": "11.50-CL-11204868",
+              "clNumber": "11204868",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "11.50-CL-11265652",
+              "version": "11.50",
+              "info": "11.50-CL-11265652",
+              "clNumber": "11265652",
+              "status": "unavailable",
+              "downloads": []
+            }
+          ]
+        },
+        {
+          "seasonNumber": 12,
+          "name": "Season 12",
+          "builds": [
+            {
+              "displayName": "12.00-CL-11556442",
+              "version": "12.00",
+              "info": "12.00-CL-11556442",
+              "clNumber": "11556442",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "12.00-CL-11566760",
+              "version": "12.00",
+              "info": "12.00-CL-11566760",
+              "clNumber": "11566760",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "12.00-CL-11586896",
+              "version": "12.00",
+              "info": "12.00-CL-11586896",
+              "clNumber": "11586896",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/12.00.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "12.10-CL-11794982",
+              "version": "12.10",
+              "info": "12.10-CL-11794982",
+              "clNumber": "11794982",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "12.10-CL-11883027",
+              "version": "12.10",
+              "info": "12.10-CL-11883027",
+              "clNumber": "11883027",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/12.10.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1BYHYo4O7P4x5kYzV14q8BopUmO-r5Z_o/view"
+                }
+              ]
+            },
+            {
+              "displayName": "12.20-CL-12170032",
+              "version": "12.20",
+              "info": "12.20-CL-12170032",
+              "clNumber": "12170032",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "12.20-CL-12236980",
+              "version": "12.20",
+              "info": "12.20-CL-12236980",
+              "clNumber": "12236980",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/12.20.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "12.21-CL-12353830",
+              "version": "12.21",
+              "info": "12.21-CL-12353830",
+              "clNumber": "12353830",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/12.21.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1BA5MJEyE9tje7-frrUrXrRcyhnIrcBEP/view"
+                }
+              ]
+            },
+            {
+              "displayName": "12.30-CL-12493283",
+              "version": "12.30",
+              "info": "12.30-CL-12493283",
+              "clNumber": "12493283",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "12.30-CL-12624643",
+              "version": "12.30",
+              "info": "12.30-CL-12624643",
+              "clNumber": "12624643",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "12.40-CL-12837456",
+              "version": "12.40",
+              "info": "12.40-CL-12837456",
+              "clNumber": "12837456",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/12.40.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "12.41-CL-12905909",
+              "version": "12.41",
+              "info": "12.41-CL-12905909",
+              "clNumber": "12905909",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/Fortnite%2012.41.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://cdn.cbn.lol/12.41"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://fentti.xyz/upload/12.41.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "12.50-CL-13044369",
+              "version": "12.50",
+              "info": "12.50-CL-13044369",
+              "clNumber": "13044369",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "12.50-CL-13137020",
+              "version": "12.50",
+              "info": "12.50-CL-13137020",
+              "clNumber": "13137020",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/12.50.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/15ijQ8gb_ylzhx8ihLvQm6IPB4uYP5tlB/view"
+                }
+              ]
+            },
+            {
+              "displayName": "12.50-CL-13193885",
+              "version": "12.50",
+              "info": "12.50-CL-13193885",
+              "clNumber": "13193885",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "12.60-CL-13315662",
+              "version": "12.60",
+              "info": "12.60-CL-13315662",
+              "clNumber": "13315662",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "12.60-CL-13477524",
+              "version": "12.60",
+              "info": "12.60-CL-13477524",
+              "clNumber": "13477524",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-12.60-CL-13477524.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "12.61-CL-13498980",
+              "version": "12.61",
+              "info": "12.61-CL-13498980",
+              "clNumber": "13498980",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/12.61.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://saturn.nxa.app/12.61.zip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 13,
+          "name": "Season 13",
+          "builds": [
+            {
+              "displayName": "13.00-CL-13649278",
+              "version": "13.00",
+              "info": "13.00-CL-13649278",
+              "clNumber": "13649278",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/13.00.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "13.00-CL-13696059",
+              "version": "13.00",
+              "info": "13.00-CL-13696059",
+              "clNumber": "13696059",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "13.00-CL-13715544",
+              "version": "13.00",
+              "info": "13.00-CL-13715544",
+              "clNumber": "13715544",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "13.20-CL-13777676",
+              "version": "13.20",
+              "info": "13.20-CL-13777676",
+              "clNumber": "13777676",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/13.20.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "13.30-CL-13884634",
+              "version": "13.30",
+              "info": "13.30-CL-13884634",
+              "clNumber": "13884634",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/13.30.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "13.40-CL-14008768",
+              "version": "13.40",
+              "info": "13.40-CL-14008768",
+              "clNumber": "14008768",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "13.40-CL-14036559",
+              "version": "13.40",
+              "info": "13.40-CL-14036559",
+              "clNumber": "14036559",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "13.40-CL-14113327",
+              "version": "13.40",
+              "info": "13.40-CL-14113327",
+              "clNumber": "14113327",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/13.40.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://forcedfnbuilds.website/13.40.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 14,
+          "name": "Season 14",
+          "builds": [
+            {
+              "displayName": "14.00-CL-14173417",
+              "version": "14.00",
+              "info": "14.00-CL-14173417",
+              "clNumber": "14173417",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.00-CL-14199892",
+              "version": "14.00",
+              "info": "14.00-CL-14199892",
+              "clNumber": "14199892",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.00-CL-14211474",
+              "version": "14.00",
+              "info": "14.00-CL-14211474",
+              "clNumber": "14211474",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/14.00.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "14.10-CL-14276912",
+              "version": "14.10",
+              "info": "14.10-CL-14276912",
+              "clNumber": "14276912",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.10-CL-14288110",
+              "version": "14.10",
+              "info": "14.10-CL-14288110",
+              "clNumber": "14288110",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.10-CL-14312695",
+              "version": "14.10",
+              "info": "14.10-CL-14312695",
+              "clNumber": "14312695",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "14.20-CL-14354056",
+              "version": "14.20",
+              "info": "14.20-CL-14354056",
+              "clNumber": "14354056",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.20-CL-14375974",
+              "version": "14.20",
+              "info": "14.20-CL-14375974",
+              "clNumber": "14375974",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.20-CL-14384759",
+              "version": "14.20",
+              "info": "14.20-CL-14384759",
+              "clNumber": "14384759",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "14.30-CL-14456520",
+              "version": "14.30",
+              "info": "14.30-CL-14456520",
+              "clNumber": "14456520",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://cdn.solarisfn.dev/Builds/14.30.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://gofile.io/d/47NC7f"
+                }
+              ]
+            },
+            {
+              "displayName": "14.40-CL-14512399",
+              "version": "14.40",
+              "info": "14.40-CL-14512399",
+              "clNumber": "14512399",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.40-CL-14550713",
+              "version": "14.40",
+              "info": "14.40-CL-14550713",
+              "clNumber": "14550713",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/14.40.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://cdn.solarisfn.dev/Builds/14.40.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://nebulafn.com/downloads/14.40.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "14.50-CL-14617811",
+              "version": "14.50",
+              "info": "14.50-CL-14617811",
+              "clNumber": "14617811",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.50-CL-14643651",
+              "version": "14.50",
+              "info": "14.50-CL-14643651",
+              "clNumber": "14643651",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "14.60-CL-14756138",
+              "version": "14.60",
+              "info": "14.60-CL-14756138",
+              "clNumber": "14756138",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.60-CL-14785135",
+              "version": "14.60",
+              "info": "14.60-CL-14785135",
+              "clNumber": "14785135",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "14.60-CL-14786821",
+              "version": "14.60",
+              "info": "14.60-CL-14786821",
+              "clNumber": "14786821",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/14.60.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://public.simplyblk.xyz/14.60.zip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 15,
+          "name": "Season 15",
+          "builds": [
+            {
+              "displayName": "15.00-CL-14826719",
+              "version": "15.00",
+              "info": "15.00-CL-14826719",
+              "clNumber": "14826719",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.00-CL-14835335",
+              "version": "15.00",
+              "info": "15.00-CL-14835335",
+              "clNumber": "14835335",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-15.00-CL-14835335.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "15.10-CL-14904303",
+              "version": "15.10",
+              "info": "15.10-CL-14904303",
+              "clNumber": "14904303",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.10-CL-14937640",
+              "version": "15.10",
+              "info": "15.10-CL-14937640",
+              "clNumber": "14937640",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.10-CL-15014719",
+              "version": "15.10",
+              "info": "15.10-CL-15014719",
+              "clNumber": "15014719",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "15.20-CL-15033494",
+              "version": "15.20",
+              "info": "15.20-CL-15033494",
+              "clNumber": "15033494",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.20-CL-15070882",
+              "version": "15.20",
+              "info": "15.20-CL-15070882",
+              "clNumber": "15070882",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/15.20.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "15.21-CL-15083856",
+              "version": "15.21",
+              "info": "15.21-CL-15083856",
+              "clNumber": "15083856",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-15.21-CL-15083856.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "15.30-CL-15233634",
+              "version": "15.30",
+              "info": "15.30-CL-15233634",
+              "clNumber": "15233634",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.30-CL-15316852",
+              "version": "15.30",
+              "info": "15.30-CL-15316852",
+              "clNumber": "15316852",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.30-CL-15341163",
+              "version": "15.30",
+              "info": "15.30-CL-15341163",
+              "clNumber": "15341163",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/15.30.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://r2.ploosh.dev/15.30.zip"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "http://cdn.nebulafn.site/15.30.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "15.40-CL-15385160",
+              "version": "15.40",
+              "info": "15.40-CL-15385160",
+              "clNumber": "15385160",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.40-CL-15419568",
+              "version": "15.40",
+              "info": "15.40-CL-15419568",
+              "clNumber": "15419568",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.40-CL-15424013",
+              "version": "15.40",
+              "info": "15.40-CL-15424013",
+              "clNumber": "15424013",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "15.40-CL-15496915",
+              "version": "15.40",
+              "info": "15.40-CL-15496915",
+              "clNumber": "15496915",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "15.50-CL-15526472",
+              "version": "15.50",
+              "info": "15.50-CL-15526472",
+              "clNumber": "15526472",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://drive.google.com/file/d/1GQicxFPRBsXDsh4hehRNk9M1ACeyglTE/view"
+                }
+              ]
+            },
+            {
+              "displayName": "15.50-CL-15570449",
+              "version": "15.50",
+              "info": "15.50-CL-15570449",
+              "clNumber": "15570449",
+              "status": "unavailable",
+              "downloads": []
+            }
+          ]
+        },
+        {
+          "seasonNumber": 16,
+          "name": "Season 16",
+          "builds": [
+            {
+              "displayName": "16.00-CL-15685441",
+              "version": "16.00",
+              "info": "16.00-CL-15685441",
+              "clNumber": "15685441",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-16.00-CL-15685441.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "16.00-CL-15713390",
+              "version": "16.00",
+              "info": "16.00-CL-15713390",
+              "clNumber": "15713390",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "16.00-CL-15727376",
+              "version": "16.00",
+              "info": "16.00-CL-15727376",
+              "clNumber": "15727376",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "16.10-CL-15851811",
+              "version": "16.10",
+              "info": "16.10-CL-15851811",
+              "clNumber": "15851811",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "16.10-CL-15862581",
+              "version": "16.10",
+              "info": "16.10-CL-15862581",
+              "clNumber": "15862581",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "16.10-CL-15898731",
+              "version": "16.10",
+              "info": "16.10-CL-15898731",
+              "clNumber": "15898731",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "16.10-CL-15913292",
+              "version": "16.10",
+              "info": "16.10-CL-15913292",
+              "clNumber": "15913292",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-16.10-CL-15913292.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "16.20-CL-16042441",
+              "version": "16.20",
+              "info": "16.20-CL-16042441",
+              "clNumber": "16042441",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/16.20.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "16.30-CL-16086208",
+              "version": "16.30",
+              "info": "16.30-CL-16086208",
+              "clNumber": "16086208",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "16.30-CL-16163563",
+              "version": "16.30",
+              "info": "16.30-CL-16163563",
+              "clNumber": "16163563",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/16.30.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1lDvUdineKpElf9H92zB1zw13IINskiHi/view"
+                }
+              ]
+            },
+            {
+              "displayName": "16.40-CL-16218553",
+              "version": "16.40",
+              "info": "16.40-CL-16218553",
+              "clNumber": "16218553",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/16.40.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "16.50-CL-16432754",
+              "version": "16.50",
+              "info": "16.50-CL-16432754",
+              "clNumber": "16432754",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://drive.google.com/file/d/15Rr_mkevAvbch1DF54ntHXyj139-HJOx/view"
+                }
+              ]
+            },
+            {
+              "displayName": "16.50-CL-16469788",
+              "version": "16.50",
+              "info": "16.50-CL-16469788",
+              "clNumber": "16469788",
+              "status": "unavailable",
+              "downloads": []
+            }
+          ]
+        },
+        {
+          "seasonNumber": 17,
+          "name": "Season 17",
+          "builds": [
+            {
+              "displayName": "17.00-CL-16555138",
+              "version": "17.00",
+              "info": "17.00-CL-16555138",
+              "clNumber": "16555138",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "17.00-CL-16593740",
+              "version": "17.00",
+              "info": "17.00-CL-16593740",
+              "clNumber": "16593740",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "17.10-CL-16701187",
+              "version": "17.10",
+              "info": "17.10-CL-16701187",
+              "clNumber": "16701187",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "17.10-CL-16745144",
+              "version": "17.10",
+              "info": "17.10-CL-16745144",
+              "clNumber": "16745144",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/17.10.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "17.20-CL-16868155",
+              "version": "17.20",
+              "info": "17.20-CL-16868155",
+              "clNumber": "16868155",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-17.20-CL-16868155.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "17.21-CL-16949556",
+              "version": "17.21",
+              "info": "17.21-CL-16949556",
+              "clNumber": "16949556",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "17.21-CL-16967001",
+              "version": "17.21",
+              "info": "17.21-CL-16967001",
+              "clNumber": "16967001",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "17.30-CL-17004569",
+              "version": "17.30",
+              "info": "17.30-CL-17004569",
+              "clNumber": "17004569",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/17.30.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://cdn.fortmp.dev/17.30.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "17.40-CL-17215766",
+              "version": "17.40",
+              "info": "17.40-CL-17215766",
+              "clNumber": "17215766",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "17.40-CL-17269705",
+              "version": "17.40",
+              "info": "17.40-CL-17269705",
+              "clNumber": "17269705",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-17.40-CL-17269705.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "17.50-CL-17328477",
+              "version": "17.50",
+              "info": "17.50-CL-17328477",
+              "clNumber": "17328477",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "17.50-CL-17388565",
+              "version": "17.50",
+              "info": "17.50-CL-17388565",
+              "clNumber": "17388565",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/17.50.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1VXCEHI5NrvYxRd-PcG_gF-zH9OBIQcee/view"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 18,
+          "name": "Season 18",
+          "builds": [
+            {
+              "displayName": "18.00-CL-17468642",
+              "version": "18.00",
+              "info": "18.00-CL-17468642",
+              "clNumber": "17468642",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/18.00.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/1aFVVvbmrrK7BykqTVS3XR6nB-Asib5gq/view"
+                }
+              ]
+            },
+            {
+              "displayName": "18.00-CL-17519952",
+              "version": "18.00",
+              "info": "18.00-CL-17519952",
+              "clNumber": "17519952",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "18.10-CL-17619277",
+              "version": "18.10",
+              "info": "18.10-CL-17619277",
+              "clNumber": "17619277",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://www.dropbox.com/scl/fi/lz5z5a1ue3pxfdokii2qv/18.10-CL-17619277.7z?rlkey=rhh3hnfsfgurlrs4lhundax7b&dl=1"
+                }
+              ]
+            },
+            {
+              "displayName": "18.10-CL-17661844",
+              "version": "18.10",
+              "info": "18.10-CL-17661844",
+              "clNumber": "17661844",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://cdn.cbn.lol/18.10"
+                }
+              ]
+            },
+            {
+              "displayName": "18.20-CL-17745267",
+              "version": "18.20",
+              "info": "18.20-CL-17745267",
+              "clNumber": "17745267",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://cdn.cbn.lol/18.20"
+                }
+              ]
+            },
+            {
+              "displayName": "18.20-CL-17792290",
+              "version": "18.20",
+              "info": "18.20-CL-17792290",
+              "clNumber": "17792290",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-18.20-CL-17792290.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "18.21-CL-17811397",
+              "version": "18.21",
+              "info": "18.21-CL-17811397",
+              "clNumber": "17811397",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://download.fn-archive.com/FortniteClient-18.21-CL-17811397.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "18.30-CL-17882303",
+              "version": "18.30",
+              "info": "18.30-CL-17882303",
+              "clNumber": "17882303",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/18.30.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "18.40-CL-18163738",
+              "version": "18.40",
+              "info": "18.40-CL-18163738",
+              "clNumber": "18163738",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/18.40.zip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "name": "Chapter 3",
+      "seasons": [
+        {
+          "seasonNumber": 19,
+          "name": "Season 19",
+          "builds": [
+            {
+              "displayName": "19.00-CL-18335626",
+              "version": "19.00",
+              "info": "19.00-CL-18335626",
+              "clNumber": "18335626",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/19.01.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://archive.org/compress/fortnite-19.01.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "19.00-CL-18380290",
+              "version": "19.00",
+              "info": "19.00-CL-18380290",
+              "clNumber": "18380290",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "19.01-CL-18415863",
+              "version": "19.01",
+              "info": "19.01-CL-18415863",
+              "clNumber": "18415863",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "19.01-CL-18489740",
+              "version": "19.01",
+              "info": "19.01-CL-18489740",
+              "clNumber": "18489740",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://r2.ploosh.dev/19.01.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://archive.org/download/Fortnite-19.01-CL-18489740.zip/19.01-CL-18489740.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "19.10-CL-18581131",
+              "version": "19.10",
+              "info": "19.10-CL-18581131",
+              "clNumber": "18581131",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "19.10-CL-18640491",
+              "version": "19.10",
+              "info": "19.10-CL-18640491",
+              "clNumber": "18640491",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "19.10-CL-18675304",
+              "version": "19.10",
+              "info": "19.10-CL-18675304",
+              "clNumber": "18675304",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/19.10.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://crystal.ploosh.dev/19.10.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "19.20-CL-18775446",
+              "version": "19.20",
+              "info": "19.20-CL-18775446",
+              "clNumber": "18775446",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "19.30-CL-18948597",
+              "version": "19.30",
+              "info": "19.30-CL-18948597",
+              "clNumber": "18948597",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "19.30-CL-19027703",
+              "version": "19.30",
+              "info": "19.30-CL-19027703",
+              "clNumber": "19027703",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/19.30.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "19.40-CL-19167615",
+              "version": "19.40",
+              "info": "19.40-CL-19167615",
+              "clNumber": "19167615",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "19.40-CL-19215531",
+              "version": "19.40",
+              "info": "19.40-CL-19215531",
+              "clNumber": "19215531",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/19.40.7z"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://www.dropbox.com/scl/fi/yh62d1ay5v87deks1g53d/19.40.zip?rlkey=y6fo0ktol2ayf7wpdw1qooj3z&dl=1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 20,
+          "name": "Season 20",
+          "builds": [
+            {
+              "displayName": "20.00-CL-19458861",
+              "version": "20.00",
+              "info": "20.00-CL-19458861",
+              "clNumber": "19458861",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/20.00.rar"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://r2.kovryn.xyz/20.00-CL-19458861.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "20.00-CL-19532288",
+              "version": "20.00",
+              "info": "20.00-CL-19532288",
+              "clNumber": "19532288",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "20.10-CL-19598943",
+              "version": "20.10",
+              "info": "20.10-CL-19598943",
+              "clNumber": "19598943",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/20.10.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "20.20-CL-19751212",
+              "version": "20.20",
+              "info": "20.20-CL-19751212",
+              "clNumber": "19751212",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/20.20.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "20.20-CL-19896998",
+              "version": "20.20",
+              "info": "20.20-CL-19896998",
+              "clNumber": "19896998",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "20.30-CL-19950687",
+              "version": "20.30",
+              "info": "20.30-CL-19950687",
+              "clNumber": "19950687",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://cdn.cbn.lol/20.30"
+                }
+              ]
+            },
+            {
+              "displayName": "20.30-CL-20037261",
+              "version": "20.30",
+              "info": "20.30-CL-20037261",
+              "clNumber": "20037261",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "20.40-CL-20175294",
+              "version": "20.40",
+              "info": "20.40-CL-20175294",
+              "clNumber": "20175294",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "20.40-CL-20244966",
+              "version": "20.40",
+              "info": "20.40-CL-20244966",
+              "clNumber": "20244966",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/20.40.zip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 21,
+          "name": "Season 21",
+          "builds": [
+            {
+              "displayName": "21.00-CL-20463113",
+              "version": "21.00",
+              "info": "21.00-CL-20463113",
+              "clNumber": "20463113",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://r2.ploosh.dev/21.00.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://drive.google.com/file/d/18lrJ6QcMFWRSY0BbXODJFUSGccRo_dsg/view"
+                }
+              ]
+            },
+            {
+              "displayName": "21.00-CL-20548557",
+              "version": "21.00",
+              "info": "21.00-CL-20548557",
+              "clNumber": "20548557",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "21.10-CL-20696680",
+              "version": "21.10",
+              "info": "21.10-CL-20696680",
+              "clNumber": "20696680",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/21.10.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "21.10-CL-20756627",
+              "version": "21.10",
+              "info": "21.10-CL-20756627",
+              "clNumber": "20756627",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "21.10-CL-20777648",
+              "version": "21.10",
+              "info": "21.10-CL-20777648",
+              "clNumber": "20777648",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "21.10-CL-20829351",
+              "version": "21.10",
+              "info": "21.10-CL-20829351",
+              "clNumber": "20829351",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "21.20-CL-20890025",
+              "version": "21.20",
+              "info": "21.20-CL-20890025",
+              "clNumber": "20890025",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "21.20-CL-20978394",
+              "version": "21.20",
+              "info": "21.20-CL-20978394",
+              "clNumber": "20978394",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://cdn.cbn.lol/21.20"
+                }
+              ]
+            },
+            {
+              "displayName": "21.20-CL-21035704",
+              "version": "21.20",
+              "info": "21.20-CL-21035704",
+              "clNumber": "21035704",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "21.30-CL-21102315",
+              "version": "21.30",
+              "info": "21.30-CL-21102315",
+              "clNumber": "21102315",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "21.30-CL-21155462",
+              "version": "21.30",
+              "info": "21.30-CL-21155462",
+              "clNumber": "21155462",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "21.40-CL-21348157",
+              "version": "21.40",
+              "info": "21.40-CL-21348157",
+              "clNumber": "21348157",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "21.40-CL-21407327",
+              "version": "21.40",
+              "info": "21.40-CL-21407327",
+              "clNumber": "21407327",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "21.50-CL-21657658",
+              "version": "21.50",
+              "info": "21.50-CL-21657658",
+              "clNumber": "21657658",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/21.50.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "21.51-CL-21735703",
+              "version": "21.51",
+              "info": "21.51-CL-21735703",
+              "clNumber": "21735703",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/21.51.7z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 22,
+          "name": "Season 22",
+          "builds": [
+            {
+              "displayName": "22.00-CL-22026835",
+              "version": "22.00",
+              "info": "22.00-CL-22026835",
+              "clNumber": "22026835",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "22.00-CL-22072684",
+              "version": "22.00",
+              "info": "22.00-CL-22072684",
+              "clNumber": "22072684",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "22.00-CL-22107157",
+              "version": "22.00",
+              "info": "22.00-CL-22107157",
+              "clNumber": "22107157",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "22.00-CL-22149829",
+              "version": "22.00",
+              "info": "22.00-CL-22149829",
+              "clNumber": "22149829",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/22.00.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "22.10-CL-22240570",
+              "version": "22.10",
+              "info": "22.10-CL-22240570",
+              "clNumber": "22240570",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "22.10-CL-22429549",
+              "version": "22.10",
+              "info": "22.10-CL-22429549",
+              "clNumber": "22429549",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "22.20-CL-22523251",
+              "version": "22.20",
+              "info": "22.20-CL-22523251",
+              "clNumber": "22523251",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "22.20-CL-22600409",
+              "version": "22.20",
+              "info": "22.20-CL-22600409",
+              "clNumber": "22600409",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "22.30-CL-22803135",
+              "version": "22.30",
+              "info": "22.30-CL-22803135",
+              "clNumber": "22803135",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "22.40-CL-23070899",
+              "version": "22.40",
+              "info": "22.40-CL-23070899",
+              "clNumber": "23070899",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://gofile.io/d/uwbcWq"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://ai-repertoire.com/download.html?token=1d051e390ae1498581d41c46541a6b6b"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "name": "Chapter 4",
+      "seasons": [
+        {
+          "seasonNumber": 23,
+          "name": "Season 23",
+          "builds": [
+            {
+              "displayName": "23.00-CL-23344627",
+              "version": "23.00",
+              "info": "23.00-CL-23344627",
+              "clNumber": "23344627",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/23.00.7z"
+                }
+              ]
+            },
+            {
+              "displayName": "23.10-CL-23443094",
+              "version": "23.10",
+              "info": "23.10-CL-23443094",
+              "clNumber": "23443094",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/23.10.rar"
+                }
+              ]
+            },
+            {
+              "displayName": "23.10-CL-23572221",
+              "version": "23.10",
+              "info": "23.10-CL-23572221",
+              "clNumber": "23572221",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "23.20-CL-23659353",
+              "version": "23.20",
+              "info": "23.20-CL-23659353",
+              "clNumber": "23659353",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "23.20-CL-23783097",
+              "version": "23.20",
+              "info": "23.20-CL-23783097",
+              "clNumber": "23783097",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "23.30-CL-23901854",
+              "version": "23.30",
+              "info": "23.30-CL-23901854",
+              "clNumber": "23901854",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "23.30-CL-23986860",
+              "version": "23.30",
+              "info": "23.30-CL-23986860",
+              "clNumber": "23986860",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "23.40-CL-24087481",
+              "version": "23.40",
+              "info": "23.40-CL-24087481",
+              "clNumber": "24087481",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/23.40.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "23.50-CL-24376996",
+              "version": "23.50",
+              "info": "23.50-CL-24376996",
+              "clNumber": "24376996",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "23.50-CL-24441668",
+              "version": "23.50",
+              "info": "23.50-CL-24441668",
+              "clNumber": "24441668",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://public.simplyblk.xyz/23.50.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://titanac.xyz/23.50.rar"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://r2.kovryn.xyz/23.50.rar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 24,
+          "name": "Season 24",
+          "builds": [
+            {
+              "displayName": "24.00-CL-24554913",
+              "version": "24.00",
+              "info": "24.00-CL-24554913",
+              "clNumber": "24554913",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://gofile.io/d/GOSBx4"
+                }
+              ]
+            },
+            {
+              "displayName": "24.01-CL-24672685",
+              "version": "24.01",
+              "info": "24.01-CL-24672685",
+              "clNumber": "24672685",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.01-CL-24757023",
+              "version": "24.01",
+              "info": "24.01-CL-24757023",
+              "clNumber": "24757023",
+              "status": "lost",
+              "downloads": []
+            },
+            {
+              "displayName": "24.10-CL-24770548",
+              "version": "24.10",
+              "info": "24.10-CL-24770548",
+              "clNumber": "24770548",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.10-CL-24903530",
+              "version": "24.10",
+              "info": "24.10-CL-24903530",
+              "clNumber": "24903530",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.20-CL-24939793",
+              "version": "24.20",
+              "info": "24.20-CL-24939793",
+              "clNumber": "24939793",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://r2.ploosh.dev/24.20.zip"
+                },
+                {
+                  "label": "alternative-1",
+                  "url": "https://r2.kovryn.xyz/24.20.zip"
+                },
+                {
+                  "label": "alternative-2",
+                  "url": "https://cdn.cbn.lol/24.20"
+                }
+              ]
+            },
+            {
+              "displayName": "24.20-CL-25019967",
+              "version": "24.20",
+              "info": "24.20-CL-25019967",
+              "clNumber": "25019967",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.20-CL-25058254",
+              "version": "24.20",
+              "info": "24.20-CL-25058254",
+              "clNumber": "25058254",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.20-CL-25156858",
+              "version": "24.20",
+              "info": "24.20-CL-25156858",
+              "clNumber": "25156858",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://gofile.io/d/cw0eee"
+                }
+              ]
+            },
+            {
+              "displayName": "24.30-CL-25210886",
+              "version": "24.30",
+              "info": "24.30-CL-25210886",
+              "clNumber": "25210886",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.30-CL-25347382",
+              "version": "24.30",
+              "info": "24.30-CL-25347382",
+              "clNumber": "25347382",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.40-CL-25420516",
+              "version": "24.40",
+              "info": "24.40-CL-25420516",
+              "clNumber": "25420516",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.40-CL-25521145",
+              "version": "24.40",
+              "info": "24.40-CL-25521145",
+              "clNumber": "25521145",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "24.40-CL-25595478",
+              "version": "24.40",
+              "info": "24.40-CL-25595478",
+              "clNumber": "25595478",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://gofile.io/d/cw0eee"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 25,
+          "name": "Season 25",
+          "builds": [
+            {
+              "displayName": "25.00-CL-25784668",
+              "version": "25.00",
+              "info": "25.00-CL-25784668",
+              "clNumber": "25784668",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "25.00-CL-25909622",
+              "version": "25.00",
+              "info": "25.00-CL-25909622",
+              "clNumber": "25909622",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "25.10-CL-26000959",
+              "version": "25.10",
+              "info": "25.10-CL-26000959",
+              "clNumber": "26000959",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "25.11-CL-26171015",
+              "version": "25.11",
+              "info": "25.11-CL-26171015",
+              "clNumber": "26171015",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://r2.ploosh.dev/25.11.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "25.20-CL-26474516",
+              "version": "25.20",
+              "info": "25.20-CL-26474516",
+              "clNumber": "26474516",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "25.20-CL-26629111",
+              "version": "25.20",
+              "info": "25.20-CL-26629111",
+              "clNumber": "26629111",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://ai-repertoire.com/download.html?token=8b7b7fe68d71489ca7222738f0e5f85e"
+                }
+              ]
+            },
+            {
+              "displayName": "25.30-CL-26867995",
+              "version": "25.30",
+              "info": "25.30-CL-26867995",
+              "clNumber": "26867995",
+              "status": "unavailable",
+              "downloads": []
+            }
+          ]
+        },
+        {
+          "seasonNumber": 26,
+          "name": "Season 26",
+          "builds": [
+            {
+              "displayName": "26.00-CL-27233190",
+              "version": "26.00",
+              "info": "26.00-CL-27233190",
+              "clNumber": "27233190",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "26.00-CL-27424790",
+              "version": "26.00",
+              "info": "26.00-CL-27424790",
+              "clNumber": "27424790",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "26.10-CL-27681420",
+              "version": "26.10",
+              "info": "26.10-CL-27681420",
+              "clNumber": "27681420",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "26.20-CL-28096793",
+              "version": "26.20",
+              "info": "26.20-CL-28096793",
+              "clNumber": "28096793",
+              "status": "unavailable",
+              "downloads": []
+            },
+            {
+              "displayName": "26.30-CL-28509302",
+              "version": "26.30",
+              "info": "26.30-CL-28509302",
+              "clNumber": "28509302",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://r2.ploosh.dev/26.30.zip"
+                }
+              ]
+            },
+            {
+              "displayName": "26.30-CL-28688692",
+              "version": "26.30",
+              "info": "26.30-CL-28688692",
+              "clNumber": "28688692",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "http://r2.ploosh.dev/26.30-CL-28688692.zip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 27,
+          "name": "Season 27",
+          "builds": [
+            {
+              "displayName": "27.00-CL-29072304",
+              "version": "27.00",
+              "info": "27.00-CL-29072304",
+              "clNumber": "29072304",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://cdn.cbn.lol/27.00"
+                }
+              ]
+            },
+            {
+              "displayName": "27.10-CL-29552510",
+              "version": "27.10",
+              "info": "27.10-CL-29552510",
+              "clNumber": "29552510",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://cdn.cbn.lol/27.10"
+                }
+              ]
+            },
+            {
+              "displayName": "27.11-CL-29739262",
+              "version": "27.11",
+              "info": "27.11-CL-29739262",
+              "clNumber": "29739262",
+              "status": "available",
+              "downloads": [
+                {
+                  "label": "primary",
+                  "url": "https://gofile.io/d/MfJHqg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};

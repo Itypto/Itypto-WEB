@@ -1,0 +1,976 @@
+@font-face {
+  font-family: "Luckiest Guy Local";
+  src:
+    local("Luckiest Guy"),
+    url("../assets/Fonts/LuckiestGuy.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "New Fn Local";
+  src: url("../assets/Fonts/NewFn.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --bg-blue: #2951cc;
+  --card-line: rgba(103, 231, 255, 0.92);
+  --card-shadow: 0 28px 50px rgba(8, 28, 91, 0.36);
+  --panel-bg: rgba(8, 24, 76, 0.9);
+  --panel-line: rgba(126, 231, 255, 0.34);
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.76);
+  --success: #67f39c;
+  --warning: #ffd553;
+  --danger: #ff7d86;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background: var(--bg-blue);
+  color: var(--text);
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+.archive-bg {
+  position: fixed;
+  inset: 0;
+  background: url("../assets/Backgrounds/Select.png") center / cover no-repeat;
+}
+
+.menu-button {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #101014;
+  cursor: pointer;
+  box-shadow: 0 12px 18px rgba(3, 24, 97, 0.2);
+  transition: transform 180ms ease, background 180ms ease, opacity 180ms ease;
+}
+
+.menu-button-lines {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 24px;
+}
+
+.menu-button-lines span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.site-menu {
+  position: fixed;
+  top: 78px;
+  left: 24px;
+  z-index: 5;
+  display: grid;
+  gap: 8px;
+  min-width: 210px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  background: rgba(9, 14, 24, 0.94);
+  font-family: "Outfit", "Segoe UI", sans-serif;
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(12px);
+}
+
+.site-menu[hidden] {
+  display: none;
+}
+
+.site-menu-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 0 12px;
+  border-radius: 12px;
+  color: #f4f8ff;
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.site-menu-link:hover,
+.site-menu-link:focus-visible {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-1px);
+}
+
+.site-menu-group-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 2px 2px 0;
+  color: rgba(245, 247, 251, 0.74);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.site-menu-group-label::before,
+.site-menu-group-label::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: rgba(245, 247, 251, 0.16);
+}
+
+.site-menu-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  color: rgba(245, 247, 251, 0.88);
+}
+
+.site-menu-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.site-menu-icon img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.menu-button:hover,
+.menu-button:focus-visible {
+  transform: translateY(-2px);
+  background: #ffffff;
+}
+
+.music-toggle {
+  position: fixed;
+  top: 24px;
+  left: 82px;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #101014;
+  cursor: pointer;
+  box-shadow: 0 12px 18px rgba(3, 24, 97, 0.2);
+  transition: transform 180ms ease, background 180ms ease, opacity 180ms ease;
+}
+
+.music-toggle:hover,
+.music-toggle:focus-visible {
+  transform: translateY(-2px);
+  background: #ffffff;
+}
+
+.music-toggle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: currentColor;
+}
+
+.music-toggle-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+
+.music-toggle[data-state="off"] {
+  color: #6a7186;
+}
+
+.music-toggle[data-state="on"] .music-icon-off,
+.music-toggle[data-state="off"] .music-icon-on {
+  display: none;
+}
+
+.browser-layout {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 0 36px;
+}
+
+.chapter-badge {
+  margin: 0 0 10px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 6px 16px rgba(5, 34, 101, 0.34);
+}
+
+.chapter-title {
+  margin: 0 0 22px;
+  color: #ffffff;
+  font-family: "Luckiest Guy Local", sans-serif;
+  font-size: clamp(2.7rem, 4vw, 4.3rem);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 8px 18px rgba(5, 34, 101, 0.28);
+  animation: title-bounce 2.6s ease-in-out infinite;
+}
+
+@keyframes title-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.season-browser-shell {
+  position: relative;
+  width: min(1680px, calc(100% - 52px));
+  margin: 0 auto;
+}
+
+.season-browser-rail {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.season-browser-rail::-webkit-scrollbar {
+  display: none;
+}
+
+.season-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  padding: 10px 72px 22px;
+}
+
+.season-card {
+  position: relative;
+  width: clamp(250px, 20vw, 340px);
+  aspect-ratio: 640 / 738;
+  padding: 0;
+  border: 8px solid var(--card-line);
+  background: rgba(7, 18, 48, 0.42);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease;
+}
+
+.season-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px solid rgba(30, 173, 240, 0.9);
+  pointer-events: none;
+}
+
+.season-card-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.season-card-label {
+  position: absolute;
+  left: 50%;
+  top: 16px;
+  transform: translateX(-50%);
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(10, 18, 43, 0.72);
+  color: #ffffff;
+  font-family: "Luckiest Guy Local", sans-serif;
+  font-size: clamp(1rem, 1.4vw, 1.45rem);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-transform: uppercase;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.34);
+  white-space: nowrap;
+}
+
+.season-card:hover,
+.season-card:focus-visible {
+  transform: translateY(-8px) scale(1.015);
+  box-shadow: 0 38px 65px rgba(8, 28, 91, 0.45);
+  filter: brightness(1.04);
+}
+
+.season-card-select {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  width: min(74%, 240px);
+  opacity: 0;
+  transform: translateX(-50%) translateY(18px);
+  transition: opacity 180ms ease, transform 180ms ease, filter 180ms ease;
+  pointer-events: none;
+}
+
+.season-card-select img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 12px 18px rgba(3, 24, 97, 0.22));
+}
+
+.season-card:hover .season-card-select,
+.season-card:focus-visible .season-card-select {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.season-card:hover .season-card-select,
+.season-card:focus-visible .season-card-select,
+.season-card:hover .season-card-select img,
+.season-card:focus-visible .season-card-select img {
+  filter: brightness(1.08);
+}
+
+.arrow-controls {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  pointer-events: none;
+}
+
+.nav-btn {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.92);
+  border: none;
+  color: #101014;
+  border-radius: 6px;
+  padding: 0;
+  pointer-events: auto;
+  transition: transform 0.18s ease, background 0.18s ease, opacity 0.18s ease;
+}
+
+.nav-btn:hover,
+.nav-btn:focus-visible {
+  transform: translateY(-2px);
+  background: #ffffff;
+}
+
+.nav-btn:active {
+  transform: translateY(0) scale(0.96);
+}
+
+.nav-btn:disabled {
+  opacity: 0.38;
+  cursor: default;
+}
+
+.nav-btn svg {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+}
+
+.browser-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 8;
+  display: grid;
+  place-items: center;
+  padding: 28px;
+  background: rgba(4, 11, 29, 0.72);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 180ms ease, visibility 180ms ease;
+}
+
+.browser-modal.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.browser-modal-dialog {
+  position: relative;
+  width: min(1040px, 100%);
+  max-height: min(86vh, 940px);
+  overflow: hidden;
+  border: 1px solid var(--panel-line);
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(22, 57, 148, 0.94), rgba(6, 21, 63, 0.97)),
+    rgba(8, 24, 76, 0.95);
+  box-shadow: 0 34px 80px rgba(3, 10, 28, 0.5);
+}
+
+.browser-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 24px 18px;
+  border-bottom: 1px solid rgba(127, 230, 255, 0.16);
+}
+
+.browser-modal-title-wrap h2 {
+  margin: 0;
+  font-family: "Luckiest Guy Local", sans-serif;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.browser-modal-title-wrap p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.browser-modal-close {
+  width: 46px;
+  height: 46px;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #101014;
+  cursor: pointer;
+  font-family: "New Fn Local", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  box-shadow: 0 12px 18px rgba(3, 24, 97, 0.2);
+  transition: transform 180ms ease, background 180ms ease, opacity 180ms ease;
+}
+
+.browser-modal-close:hover,
+.browser-modal-close:focus-visible {
+  transform: translateY(-2px);
+  background: #ffffff;
+}
+
+.browser-modal-body {
+  padding: 18px 104px 40px 24px;
+  max-height: calc(min(86vh, 940px) - 96px);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.browser-modal-body::-webkit-scrollbar {
+  display: none;
+}
+
+.browser-modal-scroll-controls {
+  position: absolute;
+  top: 116px;
+  right: 18px;
+  bottom: 24px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.modal-nav-btn {
+  pointer-events: auto;
+}
+
+.modal-nav-btn svg {
+  transform-origin: center;
+}
+
+.modal-nav-btn-up svg {
+  transform: rotate(-90deg);
+}
+
+.modal-nav-btn-down svg {
+  transform: rotate(90deg);
+}
+
+.version-list {
+  display: grid;
+  gap: 14px;
+  padding-bottom: 16px;
+  padding-right: 10px;
+}
+
+.version-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 12px 16px;
+  padding: 16px 18px;
+  border: 1px solid rgba(127, 230, 255, 0.16);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.version-head {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.version-info {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.version-title {
+  margin: 0;
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.version-meta {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  overflow-wrap: anywhere;
+}
+
+.status-pill {
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.status-checking {
+  background: rgba(255, 213, 83, 0.16);
+  color: var(--warning);
+}
+
+.status-available {
+  background: rgba(103, 243, 156, 0.16);
+  color: var(--success);
+}
+
+.status-unavailable,
+.status-lost {
+  background: rgba(255, 125, 134, 0.16);
+  color: var(--danger);
+}
+
+.version-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  grid-column: 2;
+  justify-self: end;
+  align-self: start;
+  width: auto;
+  gap: 10px;
+}
+
+.download-cta,
+.download-disabled {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+}
+
+.download-cta {
+  display: inline-flex;
+  min-width: 160px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 12px 18px rgba(3, 24, 97, 0.2);
+  color: #101014;
+  font-family: "New Fn Local", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease, filter 180ms ease;
+}
+
+.download-cta:hover,
+.download-cta:focus-visible {
+  transform: translateY(-2px);
+  background: #ffffff;
+  filter: brightness(1.02);
+}
+
+.download-disabled {
+  padding: 0 16px;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.version-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.download-choice-screen {
+  display: grid;
+  gap: 18px;
+}
+
+.download-choice-topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.download-back-btn {
+  flex: 0 0 auto;
+  min-height: 42px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Luckiest Guy Local", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.download-back-btn:hover,
+.download-back-btn:focus-visible {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.download-choice-heading {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+
+.download-choice-heading h3 {
+  margin: 0;
+  font-size: 1.16rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.download-choice-heading p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.download-source-list {
+  display: grid;
+  gap: 14px;
+  padding-right: 10px;
+}
+
+.download-source-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(127, 230, 255, 0.16);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.download-source-copy {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+
+.download-source-title {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.download-source-meta {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  overflow-wrap: anywhere;
+}
+
+.download-source-card .download-cta {
+  justify-self: end;
+}
+
+.browser-empty {
+  padding: 34px 24px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.epic-disclaimer {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 3;
+  width: min(420px, calc(100% - 40px));
+  margin: 0;
+  color: rgba(245, 247, 251, 0.76);
+  font-family: "Trebuchet MS", "Segoe UI", Tahoma, sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  text-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 1200px) {
+  .season-browser-shell {
+    width: min(100% - 28px, 100%);
+  }
+
+  .season-track {
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+}
+
+@media (max-width: 720px) {
+  .menu-button {
+    top: 14px;
+    left: 14px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .menu-button-lines {
+    width: 20px;
+    gap: 4px;
+  }
+
+  .menu-button-lines span {
+    height: 3px;
+  }
+
+  .site-menu {
+    top: 62px;
+    left: 14px;
+    min-width: 190px;
+  }
+
+  .music-toggle {
+    top: 14px;
+    left: 62px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .music-toggle-icon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .music-toggle-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .browser-layout {
+    padding-top: 22px;
+    padding-bottom: 24px;
+  }
+
+  .chapter-badge {
+    font-size: 0.84rem;
+    letter-spacing: 0.18em;
+  }
+
+  .chapter-title {
+    margin-bottom: 14px;
+    font-size: clamp(2rem, 8vw, 2.8rem);
+  }
+
+  .season-browser-shell {
+    width: min(100% - 16px, 100%);
+  }
+
+  .season-track {
+    gap: 16px;
+    padding: 10px 44px 18px;
+  }
+
+  .season-card {
+    width: min(280px, calc(100vw - 104px));
+    border-width: 5px;
+  }
+
+  .season-card::after {
+    border-width: 2px;
+  }
+
+  .season-card-label {
+    top: 12px;
+    padding: 7px 12px;
+    font-size: 1rem;
+  }
+
+  .season-card-select {
+    bottom: 16px;
+    width: min(72%, 210px);
+  }
+
+  .nav-btn {
+    width: 42px;
+    height: 42px;
+  }
+
+  .nav-btn svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .browser-modal {
+    padding: 12px;
+  }
+
+  .browser-modal-header {
+    padding: 18px 18px 16px;
+  }
+
+  .browser-modal-body {
+    padding: 16px 76px 34px 18px;
+  }
+
+  .browser-modal-scroll-controls {
+    top: 92px;
+    right: 12px;
+    bottom: 18px;
+  }
+
+  .epic-disclaimer {
+    left: 12px;
+    bottom: 12px;
+    width: min(270px, calc(100% - 24px));
+    font-size: 0.64rem;
+  }
+
+  .version-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .version-head,
+  .version-note {
+    grid-column: 1;
+  }
+
+  .version-actions {
+    grid-column: 1;
+    justify-self: start;
+    justify-content: flex-start;
+  }
+
+  .download-cta {
+    min-width: 144px;
+    min-height: 40px;
+    padding: 0 18px;
+    font-size: 1rem;
+  }
+
+  .download-choice-topbar {
+    gap: 12px;
+  }
+
+  .download-source-card {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+  }
+
+  .download-source-card .download-cta {
+    justify-self: start;
+  }
+}

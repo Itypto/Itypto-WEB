@@ -1,0 +1,8 @@
+OGFN:
+
+Music getting cutoff
+
+if i trun on music on chapter selectyy on windows it stops on ch1 2 3 4 page so i have to manuall turn it on 
+
+Fix: 
+make it save/ remeber it should be on so it just continue playing 
